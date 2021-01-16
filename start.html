@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MineVote - Get Started</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Video Source -->
+    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+    <section class="showcase">
+        <header>
+            <h2 class="logo">MineVote</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="https://github.com/healer-op/vid30/blob/main/Nether%20Update-%20Official%20Trailer%20-%20YouTube_Trim.mp4?raw=true" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Start Now </h2>
+            <h3>We Setup for You</h3>
+            <h3>Contact Us Using Discord</h3>
+            <p> Click the button bellow to get Started.
+            </p>
+            <a href="https://discord.io/namebuilds">Get Started</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="start.html">Get Started</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
