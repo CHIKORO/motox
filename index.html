@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MineVote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Video Source -->
+    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+    <section class="showcase">
+        <header>
+            <h2 class="logo">MineVote</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="https://github.com/healer-op/vid30/blob/main/videoplayback_3_Trim.mp4?raw=true" loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Need Funds ? </h2>
+            <h3>Try Over Voting service </h3>
+            <h3>And Earn Upto 100$/MONTH</h3>
+            <p> Powered By NexEngine. Minevote Provides Best Care So You Can Earn The Most Out Of Your Server. #RunForeverYourServer
+            </p>
+            <a href="#">Start</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
