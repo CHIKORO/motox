@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MineVote - inmc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Video Source -->
+    <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+    <section class="showcase">
+        <header>
+            <h2 class="logo" onclick="location.href='index.html';">MineVote</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="https://github.com/healer-op/vid30/blob/main/Minecraft%20Live-%20The%20Nether%20Update%20Encore%20-%20YouTube_Trim_Trim.mp4?raw=true" loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>INMC.TK </h2>
+            <h3>Hey!Welcome Miner</h3>
+            <h3>Vote on all the get reward</h3>
+            <p> Click the buttons bellow to vote.
+            </p>
+            <a href="javascript:delay('URL')">TopMinecraftServer</a>
+            <a href="javascript:delay1('URL')">Minecraft Servers</a>
+            <a href="javascript:delay2('URL')">Minecraft Multiplayer</a>
+            <a href="javascript:delay3('URL')">Contact Now</a>
+        </div>
+        <ul class="social">
+            <li>
+                <a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a>
+            </li>
+            <li>
+                <a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
+            </li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+
+
+        function delay(url) {
+            setTimeout(function() {
+                    var win = window.open('https://topminecraftservers.org/server/13715', '_blank');
+                    win.focus();
+                },
+                5000);
+        }
+
+        function delay1(url) {
+            setTimeout(function() {
+                    var win = window.open('https://minecraftservers.org/server/594878', '_blank');
+                    win.focus();
+                },
+                5000);
+        }
+
+        function delay2(url) {
+            setTimeout(function() {
+                    var win = window.open('https://minecraft-mp.com/server-s268592', '_blank');
+                    win.focus();
+                },
+                5000);
+        }
+
+        function delay3(url) {
+            setTimeout(function() {
+                    var win = window.open('mailto:minevote.xyz@gmail.com', '_blank');
+                    win.focus();
+                },
+                5000);
+        }
+    </script>
+</body>
+
+</html>
