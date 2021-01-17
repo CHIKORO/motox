@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>How To Fix The Ticking Entity Crash in Minecraft Server ? &#8211; MineVote &#8211; Blog</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; Feed" href="https://minevote.xyz/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; Comments Feed" href="https://minevote.xyz/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; How To Fix The Ticking Entity Crash in Minecraft Server ? Comments Feed" href="https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/minevote.xyz\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://minevote.xyz/blog/wp-includes/css/dist/block-library/style.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='generate-style-css'  href='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/css/all.min.css?ver=3.0.2' media='all' />
+<style id='generate-style-inline-css'>
+body{background-color:#fffcf9;color:#222222;}a{color:#1e73be;}a:hover, a:focus, a:active{color:#ffffff;}body .grid-container{max-width:1045px;}.wp-block-group__inner-container{max-width:1045px;margin-left:auto;margin-right:auto;}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity 100ms ease-in-out;opacity:0;}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1;}.navigation-search input[type="search"]{outline:0;border:0;vertical-align:bottom;line-height:1;opacity:0.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none;height:60px;}.navigation-search input::-ms-clear{display:none;width:0;height:0;}.navigation-search input::-ms-reveal{display:none;width:0;height:0;}.navigation-search input::-webkit-search-decoration, .navigation-search input::-webkit-search-cancel-button, .navigation-search input::-webkit-search-results-button, .navigation-search input::-webkit-search-results-decoration{display:none;}.main-navigation li.search-item{z-index:21;}li.search-item.active{transition:opacity 100ms ease-in-out;}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right;}.gen-sidebar-nav .navigation-search{top:auto;bottom:0;}.dropdown-click .main-navigation ul ul{display:none;visibility:hidden;}.dropdown-click .main-navigation ul ul ul.toggled-on{left:0;top:auto;position:relative;}.dropdown-click .main-navigation ul.toggled-on, .dropdown-click .main-navigation ul li.sfHover > ul.toggled-on{display:block;left:auto;right:auto;opacity:1;visibility:visible;pointer-events:auto;height:auto;overflow:visible;}.dropdown-click .main-navigation.sub-menu-left .sub-menu.toggled-on, .dropdown-click .main-navigation.sub-menu-left ul li.sfHover > ul.toggled-on{right:0;}.dropdown-click nav ul ul ul{background-color:transparent;}.dropdown-click .widget-area .main-navigation ul ul{top:auto;position:absolute;float:none;width:100%;left:-99999px;}.dropdown-click .widget-area .main-navigation ul ul.toggled-on{position:relative;left:0;right:0;}.dropdown-click .widget-area.sidebar .main-navigation ul li.sfHover ul, .dropdown-click .widget-area.sidebar .main-navigation ul li:hover ul{right:0;left:0;}.dropdown-click .sfHover > a > .dropdown-menu-toggle > .gp-icon svg{transform:rotate(180deg);}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-weight:bold;}@media (max-width:768px){h1{font-size:31px;}h2{font-size:27px;}h3{font-size:24px;}h4{font-size:22px;}h5{font-size:19px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#1e73be;}.main-navigation .main-nav ul li a,.menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#ffffff;background-color:#035a9e;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#035a9e;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#035a9e;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#ffffff;background-color:#035a9e;}.main-navigation ul ul{background-color:#035a9e;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#bbd2e8;background-color:#035a9e;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#bbd2e8;background-color:#035a9e;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#bbd2e8;background-color:#035a9e;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-title a{color:#222222;}.entry-title a:hover{color:#55555e;}.entry-meta{color:#595959;}.sidebar .widget{background-color:#ffffff;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#55555e;}.site-info a{color:#ffffff;}.site-info a:hover{color:#d3d3d3;}.footer-bar .widget_nav_menu .current-menu-item a{color:#d3d3d3;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#55555e;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f4047;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-header{padding:40px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container{padding:30px;}.inside-top-bar{padding-right:30px;padding-left:30px;}.inside-header{padding-right:30px;padding-left:30px;}.widget-area .widget{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.footer-widgets{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.site-info{padding-right:30px;padding-left:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+</style>
+<link rel='stylesheet' id='generate-font-icons-css'  href='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?ver=3.0.2' media='all' />
+<link rel="https://api.w.org/" href="https://minevote.xyz/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://minevote.xyz/blog/wp-json/wp/v2/posts/50" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://minevote.xyz/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://minevote.xyz/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link rel="canonical" href="https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/" />
+<link rel='shortlink' href='https://minevote.xyz/blog/?p=50' />
+<link rel="alternate" type="application/json+oembed" href="https://minevote.xyz/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fminevote.xyz%2Fblog%2F2021%2F01%2F17%2Fhow-to-fix-the-ticking-entity-crash-in-minecraft-server%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://minevote.xyz/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fminevote.xyz%2Fblog%2F2021%2F01%2F17%2Fhow-to-fix-the-ticking-entity-crash-in-minecraft-server%2F&#038;format=xml" />
+<link rel="pingback" href="https://minevote.xyz/blog/xmlrpc.php">
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+
+<body class="post-template-default single single-post postid-50 single-format-standard wp-embed-responsive right-sidebar nav-below-header separate-containers fluid-header active-footer-widgets-0 nav-search-enabled nav-aligned-left header-aligned-left dropdown-click-arrow dropdown-click featured-image-active" itemtype="https://schema.org/Blog" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://minevote.xyz/blog/" rel="home">
+						MineVote - Blog
+					</a>
+				</p>
+						<p class="site-description" itemprop="description">
+					Minecraft Server Guide
+				</p>
+					</div>			</div>
+		</header>
+				<nav id="site-navigation" class="main-navigation sub-menu-right" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://minevote.xyz/blog/">
+					<input type="search" class="search-field" value="" name="s" title="Search" />
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-minevote" class="menu sf-menu"><li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="https://minevote.xyz/">Home</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://minevote.xyz/blog/privacy/">Privacy</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65"><a href="https://minevote.xyz/contact">Contact Us</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66"><a href="https://minevote.xyz/start">Join Discord</a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li></ul></div>			</div>
+		</nav>
+		
+	<div id="page" class="site grid-container container hfeed grid-parent">
+				<div id="content" class="site-content">
+			
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75">
+		<main id="main" class="site-main">
+			
+<article id="post-50" class="post-50 post type-post status-publish format-standard has-post-thumbnail hentry category-server tag-23-ways-to-crash-minecraft tag-crash tag-crash-minecraft tag-crash-minecraft-with-arrow tag-entity tag-entity-404-in-minecraft tag-funny-minecraft-animation tag-how-to-crash-minecraft tag-minecraft tag-minecraft-animation tag-minecraft-crash-fix tag-minecraft-crash-fix-1-14 tag-minecraft-crash-fix-1-15 tag-minecraft-crash-report-1-14 tag-minecraft-crash-report-mod tag-minecraft-i-found-entity-303 tag-minecraft-life tag-minecraft-mods tag-minecraft-monster-school tag-minecraft-new-animation tag-minecraft-pe tag-minecraft-pocket-edition" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+				<div class="featured-image page-header-image-single grid-container grid-parent">
+			<img width="640" height="360" src="https://minevote.xyz/blog/wp-content/uploads/2021/01/download-7-1.png" class="attachment-full size-full wp-post-image" alt="" loading="lazy" itemprop="image" />		</div>
+					<header class="entry-header">
+				<h1 class="entry-title" itemprop="headline">How To Fix The Ticking Entity Crash in Minecraft Server ?</h1>		<div class="entry-meta">
+			<span class="posted-on"><time class="entry-date published" datetime="2021-01-17T06:40:28+00:00" itemprop="datePublished">January 17, 2021</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="https://minevote.xyz/blog/author/minevote-xyzgmail-com/" title="View all posts by minevote.xyz@gmail.com" rel="author" itemprop="url"><span class="author-name" itemprop="name">minevote.xyz@gmail.com</span></a></span></span> 		</div>
+					</header>
+			
+		<div class="entry-content" itemprop="text">
+			
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#"><img src="https://1.bp.blogspot.com/-ddxVJV88NJU/X_qFQeFfuKI/AAAAAAAAADs/DjK7I7KGzuEfbnHua_iBS-USTUGPGDuOwCLcBGAsYHQ/w640-h360/download%2B%25287%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>A Ticking Entity crash will be caused when some form of data, typically a&nbsp;mob&nbsp;or block, in the world becomes corrupted. This will usually be displayed in a crash report as follows:&nbsp;java.lang.nullpointerexception: ticking entity</p>
+
+
+
+<p>The corruption that can happen in relation to ticking entities can be so severe that anytime the game attempts to process the ticking entity it will crash. While you can see these crashes in a&nbsp;Vanilla world, you are more likely to come across this when playing a modded world. This is purely due to the fact that mods tend to change major aspects of minecraft and can be seen as a more unstable way to play the game.</p>
+
+
+
+<h3>Minecraft Ticks</h3>
+
+
+
+<p>Ticks are going to be involved with every game you may play. Ticks can be seen as loops of tasks a game does to synchronize itself. Minecraft runs its game loop at a fixed rate of 20&nbsp;ticks per second. This equates to 1 tick every 0.05 seconds. One good example of ticks is the daylight cycle in Minecraft. Each day is 24,000 ticks. This means 1 day in Minecraft equals 20 minutes in real life. Anything you are doing in game will be put in the same loop to be synchronized with the rest of the world.</p>
+
+
+
+<h2>Ticking Block &amp; Ticking World</h2>
+
+
+
+<h3>Ticking Block</h3>
+
+
+
+<p>A Ticking Block crash is generally the same as a Ticking Entity. The difference with this crash is it is related to a block or Tile Entity specifically and not a mob or npc. This will generally be related to special blocks added from a mod.</p>
+
+
+
+<h3>Ticking World</h3>
+
+
+
+<p>A Ticking World crash is the most severe of them all. This will occur when the game is able to recognize that there is corruption in the world, but will not be able to give a location. The game will have no idea where the corruption occurred and in some cases this is unfixable.<br>Once you have become subjected to a Ticking Entity crash you will have to remove the data from your world to resolve it. Simply removing your mods will not work in this case. This is due to the corruption already being part of your world. Luckily there are multiple ways you can remove the errored entity from your world. Some fixes might work better than others and it will really depend on the specific crash you are facing.</p>
+
+
+
+<p>If you discover that even after removing the errored entity the crashing keeps occurring, you may have a faulty mod. If this is the case it is important to find the specific mod/s that are causing this to be able to fix the crashes in the long run. Unfortunately there is no easy way to do this. We would recommend removing any recent additions of Mods to start. If the crashes continue you may want to start removing mods in batches until the issues stop. This will better help you narrow down which mod exactly is causing the problems.</p>
+
+
+
+<h2>How to fix a Ticking Entity</h2>
+
+
+
+<p>It is very important to resolve this crash as soon as possible. If the erroring entity is not removed your server may backup your world with the errored entity included. In some cases this could remove your only option to fixing the issue.</p>
+
+
+
+<h3>Restore from Backup</h3>
+
+
+
+<p>The absolute easiest and most straightforward way to fix the Ticking Entity is by restoring a backup() of your world. At Any Hosting we will automatically set up a backup task when you purchase a server. This task will run once per day and save up to two backups on your server at a time. We have a great guide on the restoration process&nbsp;here.</p>
+
+
+
+<h3>Crash Reports</h3>
+
+
+
+<p>When the server crashes due to a Ticking Entity the&nbsp;crash report&nbsp;will have very important information that can be used in the removal of the errored entity. The following information will be inside of the crash reports:</p>
+
+
+
+<ol><li>Type of entity that caused the crash</li><li>Exact coordinates where the Ticking Entity is located.</li></ol>
+
+
+
+<p>Below is an example of what you will typically see in a crash report if you experience a ticking entity crash.</p>
+
+
+
+<pre class="wp-block-preformatted">---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  Quark Plugin (Quark-r1.6-178.jar)
+  RandomPatches (randompatches-1.12.2-1.21.0.3.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+Contact their authors BEFORE contacting forge
+
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 6/9/20 7:55 PM
+Description: Ticking entity
+
+java.lang.NoSuchMethodError: mmm.common.entities.mobs.EntityShulkerGhast.isAttacking()Z
+	at mmm.common.entities.mobs.EntityShulkerGhast.ShootShulkerBalls(EntityShulkerGhast.java:124)
+	at mmm.common.entities.mobs.EntityShulkerGhast.func_70071_h_(EntityShulkerGhast.java:93)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------</pre>
+
+
+
+<p>As you can see the description lets us know this is a Ticking Entity crash. If you look closely you can also see that the entity Shulker Ghast is mentioned. Upon even closer inspection you can see that this is coming from a possible mod called MMM. In this case you can do a quick google search to figure out that this entity has been added by the mod&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">Mutated Mobs Mod</a>.</p>
+
+
+
+<h3>Ticking World</h3>
+
+
+
+<p>If the description in the crash report shows Ticking World or Exception ticking world you will not be able to find exact coordinates of the errored entity. This is due to the world not knowing where the issue is thus not being able to display coordinates. In these cases, we would just recommend you restore a backup() of your world.</p>
+
+
+
+<h3>Ticking Entity</h3>
+
+
+
+<p>If you take a look further down in the crash report you will be able to find the exact X, Y, Z Coordinates of the ticking entity. Below is an example of this information.</p>
+
+
+
+<pre class="wp-block-preformatted">A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at mmm.common.entities.mobs.EntityShulkerGhast.ShootShulkerBalls(EntityShulkerGhast.java:124)
+	at mmm.common.entities.mobs.EntityShulkerGhast.func_70071_h_(EntityShulkerGhast.java:93)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+
+-- Entity being ticked --
+Details:
+	Entity Type: mmm:shulkerghast (mmm.common.entities.mobs.EntityShulkerGhast)
+	Entity ID: 104807
+	Entity Name: Shulker Ghast
+	Entity's Exact location: 183.54, 51.95, 67.90
+	Entity's Block location: World: (183,51,67), Chunk: (at 7,3,3 in 11,4; contains blocks 176,0,64 to 191,255,79), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: -0.15, 0.13, -0.07
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)</pre>
+
+
+
+<p>In the Entity being ticked section you will find all the important information regarding the errored entity. You can more easily see here that it indeed is a ShulkerGhast from the MMM mod. The exact location of the entity is going to be&nbsp;<code>183.54, 51.95, 67.90</code>.</p>
+
+
+
+<h3>Cofh Killall Command to Remove Entity</h3>
+
+
+
+<p>If you have the mod&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">CoFH Core</a>&nbsp;you will have access to the&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">/cofh killall command</a>. This command is an improved version of the default Minecraft kill command. You will not need to be connected to the server to run this command. However the server will need to be able to startup in order for the command to be run.</p>
+
+
+
+<p>This command will have the ability to kill all creatures even in unloaded chunks on the server. This is crucial as if the chunk loads that has the ticking entity the server will end up crashing. Although CoFH Core is very common you may not have it installed. It is recommended to add this mod to your server’s&nbsp;mods&nbsp;folder to gain access to this command.</p>
+
+
+
+<p>In order to remove all loaded entities of a specific type you can use the following command.</p>
+
+
+
+<pre class="wp-block-preformatted">/cofh killall [type]</pre>
+
+
+
+<p>The [type] you will enter is going to be the name or part of the name of the entity type to remove from the server. You can also run without a type that will remove all hostile mobs from the server. If for some reason the type is not working you can force the command to remove ALL loaded entities with this command:&nbsp;<code>/cofh killall *</code></p>
+
+
+
+<h3>Teleport to the Mob and Kill it</h3>
+
+
+
+<p>This would be the “low tech” way to fix the ticking entity. Using the given coordinates from the crash report you can teleport to the entity and in the split second before the crash attempt to kill it in one hit. We recommend putting yourself into creative mode with /gamemode creative and getting a weapon that could instantly kill the entity.</p>
+
+
+
+<p>Once you are in creative mode and have a weapon ready you can run the /teleport command to travel to the entity and start swinging away.</p>
+
+
+
+<pre class="wp-block-preformatted">/teleport X Y Z</pre>
+
+
+
+<h3>Forge Mod Loader (DANGER)</h3>
+
+
+
+<p>One other way to fix the Ticking Entity would be by enabling certain features within the Forge Modloader.&nbsp;Forge&nbsp;will have two settings that will order Minecraft to remove any mobs or blocks that would cause the server to crash. This method of resolution is completely uncontrollable as forge will be given permission to remove anything and everything it deems necessary. If you have ever watched forge startup in console you will know that it will almost always give warnings or errors about one thing or another. This could cause forge to remove things you do not want it to.</p>
+
+
+
+<p>WARNING:&nbsp;If you attempt to use this method, make a backup of your server. We cannot stress how much damage this can do to your world, and the damage cannot be fixed. The only way to undo these changes is to restore a backup made before you turned on these settings in Forge, or by restoring a saved copy of your world.&nbsp;Customer Support&nbsp;can not restore any parts of a world deleted by Forge because of these settings, unless you made a backup beforehand.</p>
+
+
+
+<p>To turn on these settings, you must find the file forge.cfg, which is normally located in the config folder in the main directory. Select forge.cfg, and then click the edit button to the right of the file.</p>
+
+
+
+<p>Find the word false and change it to true. It’s recommended to only turn on the setting appropriate to what you are trying to fix: If trying to correct a Ticking Entity change the one for removeErrorEntities to true, but leave the removeErroringTileEntities set to false. This will hopefully minimize the side effects.</p>
+
+
+
+<p>Start the server up, let it finish running. Then immediately shut the server down, open up forge.cfg and change those settings back to false. Leaving them permanently set to true can have continuous side effects. Place a block, and it instantly disappears, because forge didn’t like it and zapped it out of existence.</p>
+
+
+
+<p>Try connecting into your game, and check to make sure everything is okay. If you see entire structures and buildings gone, well, that’s the damage we were talking about. If this happened, restore the backup made before turning on the&nbsp;Forge settings, and try one of the other alternative methods of removing the Ticking Entity.</p>
+		</div>
+
+				<footer class="entry-meta">
+			<span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://minevote.xyz/blog/category/server/" rel="category tag">Server</a></span> <span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://minevote.xyz/blog/tag/23-ways-to-crash-minecraft/" rel="tag">23 ways to crash minecraft</a>, <a href="https://minevote.xyz/blog/tag/crash/" rel="tag">crash</a>, <a href="https://minevote.xyz/blog/tag/crash-minecraft/" rel="tag">crash minecraft</a>, <a href="https://minevote.xyz/blog/tag/crash-minecraft-with-arrow/" rel="tag">crash minecraft with arrow</a>, <a href="https://minevote.xyz/blog/tag/entity/" rel="tag">entity</a>, <a href="https://minevote.xyz/blog/tag/entity-404-in-minecraft/" rel="tag">entity 404 in minecraft</a>, <a href="https://minevote.xyz/blog/tag/funny-minecraft-animation/" rel="tag">funny minecraft animation</a>, <a href="https://minevote.xyz/blog/tag/how-to-crash-minecraft/" rel="tag">how to crash minecraft</a>, <a href="https://minevote.xyz/blog/tag/minecraft/" rel="tag">minecraft</a>, <a href="https://minevote.xyz/blog/tag/minecraft-animation/" rel="tag">minecraft animation</a>, <a href="https://minevote.xyz/blog/tag/minecraft-crash-fix/" rel="tag">minecraft crash fix</a>, <a href="https://minevote.xyz/blog/tag/minecraft-crash-fix-1-14/" rel="tag">minecraft crash fix 1.14</a>, <a href="https://minevote.xyz/blog/tag/minecraft-crash-fix-1-15/" rel="tag">minecraft crash fix 1.15</a>, <a href="https://minevote.xyz/blog/tag/minecraft-crash-report-1-14/" rel="tag">minecraft crash report 1.14</a>, <a href="https://minevote.xyz/blog/tag/minecraft-crash-report-mod/" rel="tag">minecraft crash report mod</a>, <a href="https://minevote.xyz/blog/tag/minecraft-i-found-entity-303/" rel="tag">minecraft i found entity 303</a>, <a href="https://minevote.xyz/blog/tag/minecraft-life/" rel="tag">minecraft life</a>, <a href="https://minevote.xyz/blog/tag/minecraft-mods/" rel="tag">minecraft mods</a>, <a href="https://minevote.xyz/blog/tag/minecraft-monster-school/" rel="tag">minecraft monster school</a>, <a href="https://minevote.xyz/blog/tag/minecraft-new-animation/" rel="tag">minecraft new animation</a>, <a href="https://minevote.xyz/blog/tag/minecraft-pe/" rel="tag">minecraft pe</a>, <a href="https://minevote.xyz/blog/tag/minecraft-pocket-edition/" rel="tag">minecraft pocket edition</a></span> 		<nav id="nav-below" class="post-navigation">
+			<span class="screen-reader-text">Post navigation</span>
+
+			<div class="nav-previous"><span class="prev" title="Previous"><a href="https://minevote.xyz/blog/2021/01/17/how-to-play-minecraft-with-friends/" rel="prev">How to Play Minecraft with Friends ?</a></span></div><div class="nav-next"><span class="next" title="Next"><a href="https://minevote.xyz/blog/2021/01/17/netherite-in-minecraft-a-guide/" rel="next">Netherite in Minecraft: A Guide</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+
+			<div class="comments-area">
+				
+<div id="disqus_thread"></div>
+			</div>
+
+					</main>
+	</div>
+
+	<div id="right-sidebar" class="widget-area sidebar is-right-sidebar grid-25 tablet-grid-25 grid-parent" itemtype="https://schema.org/WPSideBar" itemscope>
+	<div class="inside-right-sidebar">
+		<aside id="search-2" class="widget inner-padding widget_search"><form method="get" class="search-form" action="https://minevote.xyz/blog/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search"></form>
+</aside>
+		<aside id="recent-posts-2" class="widget inner-padding widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/netherite-in-minecraft-a-guide/">Netherite in Minecraft: A Guide</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/" aria-current="page">How To Fix The Ticking Entity Crash in Minecraft Server ?</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-play-minecraft-with-friends/">How to Play Minecraft with Friends ?</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/">Minecraft ‘Failed to Verify Username’ Error FIX</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/">How to OP Yourself In Minecraft Server</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="widget inner-padding widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"></ul></aside>	</div>
+</div>
+
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info">
+								<div class="copyright-bar">
+					<span class="copyright">&copy; 2021 MineVote - Blog</span> &bull; Built with <a href="https://generatepress.com/" itemprop="url">GeneratePress</a>				</div>
+			</div>
+		</footer>
+		</div>
+
+<script id='disqus_count-js-extra'>
+var countVars = {"disqusShortname":"minvote"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.19' id='disqus_count-js'></script>
+<script id='disqus_embed-js-extra'>
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.19"},"disqusIdentifier":"50 https:\/\/minevote.xyz\/blog\/?p=50","disqusShortname":"minvote","disqusTitle":"How To Fix The Ticking Entity Crash in Minecraft Server ?","disqusUrl":"https:\/\/minevote.xyz\/blog\/2021\/01\/17\/how-to-fix-the-ticking-entity-crash-in-minecraft-server\/","postId":"50"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.19' id='disqus_embed-js'></script>
+<!--[if lte IE 11]>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.0.2' id='generate-classlist-js'></script>
+<![endif]-->
+<script id='generate-main-js-extra'>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/main.min.js?ver=3.0.2' id='generate-main-js'></script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/dropdown-click.min.js?ver=3.0.2' id='generate-dropdown-click-js'></script>
+<script id='generate-navigation-search-js-extra'>
+var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/navigation-search.min.js?ver=3.0.2' id='generate-navigation-search-js'></script>
+<script src='https://minevote.xyz/blog/wp-includes/js/comment-reply.min.js?ver=5.6' id='comment-reply-js'></script>
+<script src='https://minevote.xyz/blog/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+
+</body>
+</html>
