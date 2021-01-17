@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:30:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How to Add Mods to a Minecraft Server</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-add-mods-to-a-minecraft-server/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-add-mods-to-a-minecraft-server/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:30:40 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[1.16.3 minecraft mods]]></category>
+		<category><![CDATA[amazing minecraft mods]]></category>
+		<category><![CDATA[asianhalfsquat mods]]></category>
+		<category><![CDATA[best minecraft mods]]></category>
+		<category><![CDATA[best minecraft mods 1.16.3]]></category>
+		<category><![CDATA[best minecraft mods 2020]]></category>
+		<category><![CDATA[best new minecraft mods]]></category>
+		<category><![CDATA[cool minecraft mods]]></category>
+		<category><![CDATA[cool new minecraft mods]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft but]]></category>
+		<category><![CDATA[minecraft challenge]]></category>
+		<category><![CDATA[minecraft mod]]></category>
+		<category><![CDATA[minecraft mod showcase]]></category>
+		<category><![CDATA[minecraft mods]]></category>
+		<category><![CDATA[minecraft mods 1.16]]></category>
+		<category><![CDATA[minecraft mods 1.16.3]]></category>
+		<category><![CDATA[minecraft mods 1.16.4]]></category>
+		<category><![CDATA[minecraft mods 2020]]></category>
+		<category><![CDATA[minecraft mods java]]></category>
+		<category><![CDATA[minecraft mods pc]]></category>
+		<category><![CDATA[mods]]></category>
+		<category><![CDATA[new minecraft mods]]></category>
+		<category><![CDATA[top 10 minecraft mods]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=28</guid>
+
+					<description><![CDATA[Overview If you have been playing&#160;Vanilla Minecraft, or using a premade modpack, it is likely that you have already explored all there is to do. Why not start exploring into customizing your server further? A great way to customize your server is by adding mods. Whether you are adding them to an existing&#160;modpack&#160;or to your ... <a title="How to Add Mods to a Minecraft Server" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-add-mods-to-a-minecraft-server/" aria-label="More on How to Add Mods to a Minecraft Server">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/1875636301588821341#"><img src="https://1.bp.blogspot.com/-pmk3nIK96Os/X_m_o2S7ALI/AAAAAAAAACI/zRz5Khv1-aAnjzoVNoO_UKPkR0V94-0SQCLcBGAsYHQ/w640-h360/novaskin-minecraft-wallpaper%2B%25285%2529.jpeg" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>If you have been playing&nbsp;Vanilla Minecraft, or using a premade modpack, it is likely that you have already explored all there is to do. Why not start exploring into customizing your server further? A great way to customize your server is by adding mods. Whether you are adding them to an existing&nbsp;modpack&nbsp;or to your current Forge setup, adding mods is a great way to open up new possibilities. Mods can be added with just a few steps and we will walk you through each of them so you can build your dream&nbsp;server.</p>
+
+
+
+<p>When running a modded server, do not forget that you need to have the mods downloaded on your Minecraft client. This also applies if you are adding additional mods to an already created modpack. In order to run mods on your client, you will need to&nbsp;install Forge client side.</p>
+
+
+
+<h2>How to Install Mods on a Minecraft Server</h2>
+
+
+
+<p>Downloading mods</p>
+
+
+
+<ol><li>You need to get the mods from&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/1875636301588821341#">CurseForge</a>&nbsp;or the mod authors official site. Doing this ensures that you won’t get corrupted files or viruses.</li><li>Once you decide on a mod you want, click the name to open the mod page.</li><li>Open the Files tab to view the versions. To the right of the version you want, press download. It’s best to download the latest recommended update for your version of Minecraft.</li><li>Head back to the mods page and open the Relations tab. This is very important as these are the mods you need for it to work correctly. If you don’t download the dependencies, the server will not function properly, or at all.</li></ol>
+
+
+
+<p>Uploading mods</p>
+
+
+
+<ol><li>Make sure that your server is set to Forge under the jar dropdown. You can find a tutorial on changing server versions&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/1875636301588821341#">here</a>. Note that you need to run forge before you put the mods in, to create the mods folder, and if you do not your mods will be deleted.</li><li>Stop the server.</li><li>To the left of the game panel, click on FTP File Access and go into the mods folder.</li><li>Click on “Upload” then simply drag in the mods you have previously downloaded. Wait for the mods to fully upload before leaving this page.</li><li>When you upload mods, it is highly recommended that you generate a new world to ensure that there is no corruption. You can find our guide on making a new world&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/1875636301588821341#">here</a>.</li><li>Once they are uploaded, head back to the Game Panel and start the server. Once the server is fully started, you are safe to connect.</li></ol>
+
+
+
+<h2>Common Issues</h2>
+
+
+
+<p>Incorrect Forge version</p>
+
+
+
+<p>The mods you have uploaded to the server may not always be compatible with the Forge version we have available from our jar selector. If this is the case, you will need to install the correct version of Forge for your mod manually. We have a tutorial on uploading a custom version of Forge&nbsp;here.</p>
+
+
+
+<p>Server is crashing on startup</p>
+
+
+
+<p>The&nbsp;server crashing&nbsp;during the startup process can be common on Forge servers if they are not setup correctly. This can be due to multiple issues. Most commonly this is caused by a duplicate mod, missing dependency mods, or incorrect mod versions.</p>
+
+
+
+<p>Server is stuck loading</p>
+
+
+
+<p>Many times when modifying the server, the server will need to be confirmed before it will fully start. This happens a lot especially when you remove or add mods. Most of the time in console, you will see&nbsp;Missing Mod Id’s errors. All you need to do to resolve this is type /fml confirm in console.</p>
+
+
+
+<p>Duplicate Mods<br>You can detect a duplicate mod from console pretty easily. You will see an error that says “Duplicate Mods” with the mod name listed underneath it. Simply go into the FTP File Access, the mods folder, and delete the extra mod.</p>
+
+
+
+<p>Missing Dependency<br>To detect if you have a missing dependency mod, head into the console where you will see an error code that reads something similar to The mod nei (Not Enough Items) requires mod [JEI] to be available From this error, we can see that the&nbsp;missing mod&nbsp;is JEI. You will need to add the mod into the server in order for the server to work again.</p>
+
+
+
+<p>Incorrect Mod Version<br>Detecting if the mod is the incorrect version is pretty easy. It will almost always display an error stating that it is for a different version of Forge. It will look similar to File jei_1.12.2-4.15.0.268.jar is for an older version of Forge and cannot be loaded. If you have this issue, make sure that the mod you are using&nbsp;has an update&nbsp;for the version of Forge you are running. If it doesn’t, then you won’t be able to use the mod on your server.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-add-mods-to-a-minecraft-server/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

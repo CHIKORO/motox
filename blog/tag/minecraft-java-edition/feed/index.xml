@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>minecraft java edition &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/minecraft-java-edition/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:37:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>Minecraft ‘Failed to Verify Username’ Error FIX</title>
+		<link>https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:37:56 +0000</pubDate>
+				<category><![CDATA[Tips]]></category>
+		<category><![CDATA[account migration minecraft]]></category>
+		<category><![CDATA[how to migrate your minecraft account]]></category>
+		<category><![CDATA[migrate minecraft account without email]]></category>
+		<category><![CDATA[migrate minecraft to microsoft]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft 1.17]]></category>
+		<category><![CDATA[minecraft 1.17 news]]></category>
+		<category><![CDATA[minecraft acccount migration]]></category>
+		<category><![CDATA[minecraft account]]></category>
+		<category><![CDATA[minecraft account migration]]></category>
+		<category><![CDATA[minecraft cape]]></category>
+		<category><![CDATA[minecraft capes]]></category>
+		<category><![CDATA[minecraft free cape]]></category>
+		<category><![CDATA[minecraft java account]]></category>
+		<category><![CDATA[minecraft java account migration]]></category>
+		<category><![CDATA[minecraft java edition]]></category>
+		<category><![CDATA[minecraft migrate account]]></category>
+		<category><![CDATA[minecraft migration]]></category>
+		<category><![CDATA[minecraft news]]></category>
+		<category><![CDATA[minecraft update]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=43</guid>
+
+					<description><![CDATA[Overview You may have tried to join your&#160;Minecraft server&#160;and been rejected due to the error “Failed to verify username” or “Invalid Session”. This issue is normally because the client’s launcher failed to authenticate with Mojang’s session servers. Luckily, you can fix this error with just a few steps. You may also be running a non-premium ... <a title="Minecraft ‘Failed to Verify Username’ Error FIX" class="read-more" href="https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/" aria-label="More on Minecraft ‘Failed to Verify Username’ Error FIX">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/2741284536420253035#"><img src="https://1.bp.blogspot.com/-yYeFHnfPlL8/X_nE6pEMuNI/AAAAAAAAADI/yjNFOq4Y-rIJv6d0sxTjX5mDVptsTbCmwCLcBGAsYHQ/w640-h360/download%2B%25285%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>You may have tried to join your&nbsp;Minecraft server&nbsp;and been rejected due to the error “Failed to verify username” or “Invalid Session”. This issue is normally because the client’s launcher failed to authenticate with Mojang’s session servers. Luckily, you can fix this error with just a few steps.</p>
+
+
+
+<p>You may also be running a non-premium version of Minecraft. If you did not pay for Minecraft, you will not be allowed to join most servers due to the server running in online mode, however, it can be changed to offline mode fairly easily.</p>
+
+
+
+<h2>How to resolve</h2>
+
+
+
+<p>How to resolve on a premium server</p>
+
+
+
+<ol><li>Close your game.</li><li>Log off your account from your launcher.</li><li>You will then be asked to type in your email and password again, please do.</li><li>Once logged in, you can then start your game and join the server.</li></ol>
+
+
+
+<p>How to allow cracked players on your server</p>
+
+
+
+<ol><li>Head to the Game Panel and stop the server.</li><li>To the left of the panel click “Config Files” and then click “Server Settings”.</li><li>Locate “Online Mode” and set it to disabled, then click save.</li><li>Head back to the Game Panel dashboard and turn the server back on. It should now let you join.</li></ol>
+
+
+
+<h2>Common Issues</h2>
+
+
+
+<p>After restarting the launcher, players still can’t join<br>If you are using premium Minecraft and have already followed the steps on to resolve the error and still cannot join, try restarting the server.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How To Install Minecraft Data Packs</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-install-minecraft-data-packs/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-install-minecraft-data-packs/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:33:30 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[#datapack]]></category>
+		<category><![CDATA[#minecraft]]></category>
+		<category><![CDATA[1 command in minecraft]]></category>
+		<category><![CDATA[datapack]]></category>
+		<category><![CDATA[datapacks]]></category>
+		<category><![CDATA[how to install datapack]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft 1.14]]></category>
+		<category><![CDATA[minecraft 1.15]]></category>
+		<category><![CDATA[minecraft 1.16]]></category>
+		<category><![CDATA[minecraft 1.16 datapack]]></category>
+		<category><![CDATA[minecraft command]]></category>
+		<category><![CDATA[minecraft command block]]></category>
+		<category><![CDATA[minecraft data pack]]></category>
+		<category><![CDATA[minecraft data packs]]></category>
+		<category><![CDATA[minecraft datapack]]></category>
+		<category><![CDATA[minecraft datapacks]]></category>
+		<category><![CDATA[minecraft datapacks 1.15]]></category>
+		<category><![CDATA[minecraft datapacks 1.15.2]]></category>
+		<category><![CDATA[minecraft datapacks 1.16]]></category>
+		<category><![CDATA[minecraft java edition]]></category>
+		<category><![CDATA[minecraft mods]]></category>
+		<category><![CDATA[one command in minecraft]]></category>
+		<category><![CDATA[top 10 minecraft data packs]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=34</guid>
+
+					<description><![CDATA[Overview There are many great ways to further customize your Minecraft gameplay. One of the easiest ways to customize your server is with the use of datapacks. You can use datapacks to add new advancements, functions, loot tables, structures, and more. This is a great alternative to adding mods/plugins onto your server as it does ... <a title="How To Install Minecraft Data Packs" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-install-minecraft-data-packs/" aria-label="More on How To Install Minecraft Data Packs">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/4088392038441191749#"><img src="https://1.bp.blogspot.com/-Q9kaKqceRvk/X_nCNaijPcI/AAAAAAAAACo/D5YTJvQa0CEVxYSfqLw3jcuMn21sKOAoACLcBGAsYHQ/w640-h360/download%2B%25282%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>There are many great ways to further customize your Minecraft gameplay. One of the easiest ways to customize your server is with the use of datapacks. You can use datapacks to add new advancements, functions, loot tables, structures, and more. This is a great alternative to adding mods/plugins onto your server as it does not require installation client-side or for you to&nbsp;change your server version&nbsp;from Vanilla Minecraft. Keep in mind that they are only made for&nbsp;Java Edition&nbsp;and not&nbsp;Bedrock Edition. Datapacks can be added to your&nbsp;Minecraft server&nbsp;easily and we will walk you through each step of the process.</p>
+
+
+
+<h2>How to add datapacks</h2>
+
+
+
+<p>Finding a pack</p>
+
+
+
+<ol><li>The pack needs to come from an trusted site such as&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/4088392038441191749#">Vanilla Tweaks</a>&nbsp;or&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/4088392038441191749#">Gamemode 4</a>.</li><li>Confirm that the datapack you want to download is made for the version of Minecraft that your server is running.</li><li>Download the pack to a known directory on your computer. It generally downloads as a .zip, do not extract this.</li></ol>
+
+
+
+<p>Uploading the datapack to the server</p>
+
+
+
+<ol><li>Stop your server</li><li>Access your server files through an&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/4088392038441191749#">FTP</a>&nbsp;client such as FileZilla.</li><li>Open the world folder and then enter the datapacks directory.</li><li>Make sure that you are opening the world folder that your server is set to load. You can check the name of world your server is loading in the world field on the main page of the game panel.</li><li>Drag the datapack you downloaded previously into the datapacks folder.</li><li>Once the file is fully uploaded, head back to the game panel and start the server.</li></ol>
+
+
+
+<p>Commands<br>The datapack command was added after 1.13, so these are not relevant for any versions under 1.13.</p>
+
+
+
+<ul><li>/datapack disable: Disables a datapack of choosing</li><li>/datapack enable: Enables a datapack of choosing</li><li>/datapack list: List all of the enabled/disabled datapacks</li></ul>
+
+
+
+<h2>Common Issues</h2>
+
+
+
+<p>Datapack doesn’t show in the server<br>The datapack not showing is generally from the file not being uploaded to the correct directory. Enter your world folder, than datapacks folder to ensure that the datapack is properly uploaded. Also, make sure that you did not unzip the pack. If you check both of these and still are experiencing issues, make sure that the datapack is made for the same version of Minecraft that your server is running.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-install-minecraft-data-packs/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

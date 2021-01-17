@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>minecraft life &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/minecraft-life/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:40:29 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How To Fix The Ticking Entity Crash in Minecraft Server ?</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:40:28 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[23 ways to crash minecraft]]></category>
+		<category><![CDATA[crash]]></category>
+		<category><![CDATA[crash minecraft]]></category>
+		<category><![CDATA[crash minecraft with arrow]]></category>
+		<category><![CDATA[entity]]></category>
+		<category><![CDATA[entity 404 in minecraft]]></category>
+		<category><![CDATA[funny minecraft animation]]></category>
+		<category><![CDATA[how to crash minecraft]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft animation]]></category>
+		<category><![CDATA[minecraft crash fix]]></category>
+		<category><![CDATA[minecraft crash fix 1.14]]></category>
+		<category><![CDATA[minecraft crash fix 1.15]]></category>
+		<category><![CDATA[minecraft crash report 1.14]]></category>
+		<category><![CDATA[minecraft crash report mod]]></category>
+		<category><![CDATA[minecraft i found entity 303]]></category>
+		<category><![CDATA[minecraft life]]></category>
+		<category><![CDATA[minecraft mods]]></category>
+		<category><![CDATA[minecraft monster school]]></category>
+		<category><![CDATA[minecraft new animation]]></category>
+		<category><![CDATA[minecraft pe]]></category>
+		<category><![CDATA[minecraft pocket edition]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=50</guid>
+
+					<description><![CDATA[Overview A Ticking Entity crash will be caused when some form of data, typically a&#160;mob&#160;or block, in the world becomes corrupted. This will usually be displayed in a crash report as follows:&#160;java.lang.nullpointerexception: ticking entity The corruption that can happen in relation to ticking entities can be so severe that anytime the game attempts to process ... <a title="How To Fix The Ticking Entity Crash in Minecraft Server ?" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/" aria-label="More on How To Fix The Ticking Entity Crash in Minecraft Server ?">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#"><img src="https://1.bp.blogspot.com/-ddxVJV88NJU/X_qFQeFfuKI/AAAAAAAAADs/DjK7I7KGzuEfbnHua_iBS-USTUGPGDuOwCLcBGAsYHQ/w640-h360/download%2B%25287%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>A Ticking Entity crash will be caused when some form of data, typically a&nbsp;mob&nbsp;or block, in the world becomes corrupted. This will usually be displayed in a crash report as follows:&nbsp;java.lang.nullpointerexception: ticking entity</p>
+
+
+
+<p>The corruption that can happen in relation to ticking entities can be so severe that anytime the game attempts to process the ticking entity it will crash. While you can see these crashes in a&nbsp;Vanilla world, you are more likely to come across this when playing a modded world. This is purely due to the fact that mods tend to change major aspects of minecraft and can be seen as a more unstable way to play the game.</p>
+
+
+
+<h3>Minecraft Ticks</h3>
+
+
+
+<p>Ticks are going to be involved with every game you may play. Ticks can be seen as loops of tasks a game does to synchronize itself. Minecraft runs its game loop at a fixed rate of 20&nbsp;ticks per second. This equates to 1 tick every 0.05 seconds. One good example of ticks is the daylight cycle in Minecraft. Each day is 24,000 ticks. This means 1 day in Minecraft equals 20 minutes in real life. Anything you are doing in game will be put in the same loop to be synchronized with the rest of the world.</p>
+
+
+
+<h2>Ticking Block &amp; Ticking World</h2>
+
+
+
+<h3>Ticking Block</h3>
+
+
+
+<p>A Ticking Block crash is generally the same as a Ticking Entity. The difference with this crash is it is related to a block or Tile Entity specifically and not a mob or npc. This will generally be related to special blocks added from a mod.</p>
+
+
+
+<h3>Ticking World</h3>
+
+
+
+<p>A Ticking World crash is the most severe of them all. This will occur when the game is able to recognize that there is corruption in the world, but will not be able to give a location. The game will have no idea where the corruption occurred and in some cases this is unfixable.<br>Once you have become subjected to a Ticking Entity crash you will have to remove the data from your world to resolve it. Simply removing your mods will not work in this case. This is due to the corruption already being part of your world. Luckily there are multiple ways you can remove the errored entity from your world. Some fixes might work better than others and it will really depend on the specific crash you are facing.</p>
+
+
+
+<p>If you discover that even after removing the errored entity the crashing keeps occurring, you may have a faulty mod. If this is the case it is important to find the specific mod/s that are causing this to be able to fix the crashes in the long run. Unfortunately there is no easy way to do this. We would recommend removing any recent additions of Mods to start. If the crashes continue you may want to start removing mods in batches until the issues stop. This will better help you narrow down which mod exactly is causing the problems.</p>
+
+
+
+<h2>How to fix a Ticking Entity</h2>
+
+
+
+<p>It is very important to resolve this crash as soon as possible. If the erroring entity is not removed your server may backup your world with the errored entity included. In some cases this could remove your only option to fixing the issue.</p>
+
+
+
+<h3>Restore from Backup</h3>
+
+
+
+<p>The absolute easiest and most straightforward way to fix the Ticking Entity is by restoring a backup() of your world. At Any Hosting we will automatically set up a backup task when you purchase a server. This task will run once per day and save up to two backups on your server at a time. We have a great guide on the restoration process&nbsp;here.</p>
+
+
+
+<h3>Crash Reports</h3>
+
+
+
+<p>When the server crashes due to a Ticking Entity the&nbsp;crash report&nbsp;will have very important information that can be used in the removal of the errored entity. The following information will be inside of the crash reports:</p>
+
+
+
+<ol><li>Type of entity that caused the crash</li><li>Exact coordinates where the Ticking Entity is located.</li></ol>
+
+
+
+<p>Below is an example of what you will typically see in a crash report if you experience a ticking entity crash.</p>
+
+
+
+<pre class="wp-block-preformatted">---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  Quark Plugin (Quark-r1.6-178.jar)
+  RandomPatches (randompatches-1.12.2-1.21.0.3.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.10-1.12.2.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+Contact their authors BEFORE contacting forge
+
+// This is a token for 1 free hug. Redeem at your nearest Mojangsta: [~~HUG~~]
+
+Time: 6/9/20 7:55 PM
+Description: Ticking entity
+
+java.lang.NoSuchMethodError: mmm.common.entities.mobs.EntityShulkerGhast.isAttacking()Z
+	at mmm.common.entities.mobs.EntityShulkerGhast.ShootShulkerBalls(EntityShulkerGhast.java:124)
+	at mmm.common.entities.mobs.EntityShulkerGhast.func_70071_h_(EntityShulkerGhast.java:93)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------</pre>
+
+
+
+<p>As you can see the description lets us know this is a Ticking Entity crash. If you look closely you can also see that the entity Shulker Ghast is mentioned. Upon even closer inspection you can see that this is coming from a possible mod called MMM. In this case you can do a quick google search to figure out that this entity has been added by the mod&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">Mutated Mobs Mod</a>.</p>
+
+
+
+<h3>Ticking World</h3>
+
+
+
+<p>If the description in the crash report shows Ticking World or Exception ticking world you will not be able to find exact coordinates of the errored entity. This is due to the world not knowing where the issue is thus not being able to display coordinates. In these cases, we would just recommend you restore a backup() of your world.</p>
+
+
+
+<h3>Ticking Entity</h3>
+
+
+
+<p>If you take a look further down in the crash report you will be able to find the exact X, Y, Z Coordinates of the ticking entity. Below is an example of this information.</p>
+
+
+
+<pre class="wp-block-preformatted">A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at mmm.common.entities.mobs.EntityShulkerGhast.ShootShulkerBalls(EntityShulkerGhast.java:124)
+	at mmm.common.entities.mobs.EntityShulkerGhast.func_70071_h_(EntityShulkerGhast.java:93)
+	at net.minecraft.world.World.func_72866_a(World.java:1996)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+	at net.minecraft.world.World.func_72870_g(World.java:1958)
+
+-- Entity being ticked --
+Details:
+	Entity Type: mmm:shulkerghast (mmm.common.entities.mobs.EntityShulkerGhast)
+	Entity ID: 104807
+	Entity Name: Shulker Ghast
+	Entity's Exact location: 183.54, 51.95, 67.90
+	Entity's Block location: World: (183,51,67), Chunk: (at 7,3,3 in 11,4; contains blocks 176,0,64 to 191,255,79), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: -0.15, 0.13, -0.07
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1762)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)</pre>
+
+
+
+<p>In the Entity being ticked section you will find all the important information regarding the errored entity. You can more easily see here that it indeed is a ShulkerGhast from the MMM mod. The exact location of the entity is going to be&nbsp;<code>183.54, 51.95, 67.90</code>.</p>
+
+
+
+<h3>Cofh Killall Command to Remove Entity</h3>
+
+
+
+<p>If you have the mod&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">CoFH Core</a>&nbsp;you will have access to the&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/5104592084804196716#">/cofh killall command</a>. This command is an improved version of the default Minecraft kill command. You will not need to be connected to the server to run this command. However the server will need to be able to startup in order for the command to be run.</p>
+
+
+
+<p>This command will have the ability to kill all creatures even in unloaded chunks on the server. This is crucial as if the chunk loads that has the ticking entity the server will end up crashing. Although CoFH Core is very common you may not have it installed. It is recommended to add this mod to your server’s&nbsp;mods&nbsp;folder to gain access to this command.</p>
+
+
+
+<p>In order to remove all loaded entities of a specific type you can use the following command.</p>
+
+
+
+<pre class="wp-block-preformatted">/cofh killall [type]</pre>
+
+
+
+<p>The [type] you will enter is going to be the name or part of the name of the entity type to remove from the server. You can also run without a type that will remove all hostile mobs from the server. If for some reason the type is not working you can force the command to remove ALL loaded entities with this command:&nbsp;<code>/cofh killall *</code></p>
+
+
+
+<h3>Teleport to the Mob and Kill it</h3>
+
+
+
+<p>This would be the “low tech” way to fix the ticking entity. Using the given coordinates from the crash report you can teleport to the entity and in the split second before the crash attempt to kill it in one hit. We recommend putting yourself into creative mode with /gamemode creative and getting a weapon that could instantly kill the entity.</p>
+
+
+
+<p>Once you are in creative mode and have a weapon ready you can run the /teleport command to travel to the entity and start swinging away.</p>
+
+
+
+<pre class="wp-block-preformatted">/teleport X Y Z</pre>
+
+
+
+<h3>Forge Mod Loader (DANGER)</h3>
+
+
+
+<p>One other way to fix the Ticking Entity would be by enabling certain features within the Forge Modloader.&nbsp;Forge&nbsp;will have two settings that will order Minecraft to remove any mobs or blocks that would cause the server to crash. This method of resolution is completely uncontrollable as forge will be given permission to remove anything and everything it deems necessary. If you have ever watched forge startup in console you will know that it will almost always give warnings or errors about one thing or another. This could cause forge to remove things you do not want it to.</p>
+
+
+
+<p>WARNING:&nbsp;If you attempt to use this method, make a backup of your server. We cannot stress how much damage this can do to your world, and the damage cannot be fixed. The only way to undo these changes is to restore a backup made before you turned on these settings in Forge, or by restoring a saved copy of your world.&nbsp;Customer Support&nbsp;can not restore any parts of a world deleted by Forge because of these settings, unless you made a backup beforehand.</p>
+
+
+
+<p>To turn on these settings, you must find the file forge.cfg, which is normally located in the config folder in the main directory. Select forge.cfg, and then click the edit button to the right of the file.</p>
+
+
+
+<p>Find the word false and change it to true. It’s recommended to only turn on the setting appropriate to what you are trying to fix: If trying to correct a Ticking Entity change the one for removeErrorEntities to true, but leave the removeErroringTileEntities set to false. This will hopefully minimize the side effects.</p>
+
+
+
+<p>Start the server up, let it finish running. Then immediately shut the server down, open up forge.cfg and change those settings back to false. Leaving them permanently set to true can have continuous side effects. Place a block, and it instantly disappears, because forge didn’t like it and zapped it out of existence.</p>
+
+
+
+<p>Try connecting into your game, and check to make sure everything is okay. If you see entire structures and buildings gone, well, that’s the damage we were talking about. If this happened, restore the backup made before turning on the&nbsp;Forge settings, and try one of the other alternative methods of removing the Ticking Entity.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

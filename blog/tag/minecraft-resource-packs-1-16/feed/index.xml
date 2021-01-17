@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>minecraft resource packs 1.16 &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/minecraft-resource-packs-1-16/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:35:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How To Add Resource Packs To Minecraft Server</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-add-resource-packs-to-minecraft-server/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-add-resource-packs-to-minecraft-server/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:35:13 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[best minecraft resource pack]]></category>
+		<category><![CDATA[best minecraft resource packs]]></category>
+		<category><![CDATA[best minecraft texture pack]]></category>
+		<category><![CDATA[best resource packs for minecraft 1.16.4]]></category>
+		<category><![CDATA[best texture packs for minecraft]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft resource pack]]></category>
+		<category><![CDATA[minecraft resource packs]]></category>
+		<category><![CDATA[minecraft resource packs 1.16]]></category>
+		<category><![CDATA[minecraft texture pack]]></category>
+		<category><![CDATA[minecraft texture packs]]></category>
+		<category><![CDATA[minecraft vanilla resource pack]]></category>
+		<category><![CDATA[resource pack]]></category>
+		<category><![CDATA[resource pack 1.16.4]]></category>
+		<category><![CDATA[resource packs]]></category>
+		<category><![CDATA[texture pack]]></category>
+		<category><![CDATA[top 10 minecraft texture packs]]></category>
+		<category><![CDATA[top packs for minecraft]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=37</guid>
+
+					<description><![CDATA[Overview Adding a Resource Pack to your&#160;Minecraft server&#160;is an excellent way to bring excitement to the visual aspects of your community’s gameplay. With thousands of texture packs, there are endless possibilities to create your perfect server. While installing a resource pack to your server can be tricky, we will walk you through the process to ... <a title="How To Add Resource Packs To Minecraft Server" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-add-resource-packs-to-minecraft-server/" aria-label="More on How To Add Resource Packs To Minecraft Server">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/750870351060855106#"><img src="https://1.bp.blogspot.com/-vfYnG6-Nu3k/X_nDJIjqVDI/AAAAAAAAAC0/77QmgAN_HEwAPev42vi137mqLtNm8svlgCLcBGAsYHQ/w640-h360/download%2B%25283%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>Adding a Resource Pack to your&nbsp;Minecraft server&nbsp;is an excellent way to bring excitement to the visual aspects of your community’s gameplay. With thousands of texture packs, there are endless possibilities to create your perfect server. While installing a resource pack to your server can be tricky, we will walk you through the process to ensure a smooth installation.</p>
+
+
+
+<h2>How to Install</h2>
+
+
+
+<p>Finding a pack:</p>
+
+
+
+<ol><li>The pack needs to come from an official website such as CurseForge (<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/750870351060855106#">https://www.curseforge.com/minecraft/texture-packs</a>).</li><li>Confirm that the resource pack is made for the version of Minecraft your server is running.</li><li>Download the pack to a known directory on your computer.</li></ol>
+
+
+
+<h2>Setting Up Dropbox</h2>
+
+
+
+<ol><li>Sign into the Dropbox website.</li><li>To the right of the Dropbox site, click the “Upload Files” button.</li><li>Navigate to your chosen resource pack on your computer, select it, and click “Open”.</li><li>Wait for the file to upload.</li><li>When it has finished click done.</li><li>Find your texture pack in the Dropbox file list and press the share button.</li><li>Ensure that your link settings for the file are set to “Anyone with the link can see it.”</li><li>Copy the link to your clipboard.</li></ol>
+
+
+
+<h2>Configuring Your Server</h2>
+
+
+
+<ol><li><ol><li>Login to your Multicraft panel, select and stop your Minecraft server.</li><li>Click on “Files” and then “Config Files“</li><li>Click server settings.</li><li>In the “resource-pack=” field, paste the public link you copied from Dropbox.</li><li>The public link you copied from Dropbox must be changed from https://www.dropbox.com/somestring…?dl=0 to https://dl.dropboxusercontent.com/somestring…?dl=1 You have to change the 0 at the end to 1.</li><li>Click save at the bottom of the page</li><li>Start your server again.</li></ol>&nbsp;Common IssuesFPS is dropping after you install the packIf a player is getting this issue, the resource pack may be too intense for their computer to handle. Using a less demanding pack for the server will allow players to use the pack with less worry for lag.Players clicking Yes on the resource pack popup but nothing changes.If when the player clicks “Yes” on the popup and nothing happens, this is generally due to an issue with the link inputted in the server settings. First, make sure that the Dropbox was set to “Anyone with the link can see it.” and that the link was changed from https://www.dropbox.com/somestring…?dl=0 to https://dl.dropboxusercontent.com/somestring…?dl=1. This can also be from the texture pack not being made for the server version you are running.</li></ol>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-add-resource-packs-to-minecraft-server/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>How to Read Minecraft Crash Reports &#8211; MineVote &#8211; Blog</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; Feed" href="https://minevote.xyz/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; Comments Feed" href="https://minevote.xyz/blog/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MineVote - Blog &raquo; How to Read Minecraft Crash Reports Comments Feed" href="https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/minevote.xyz\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://minevote.xyz/blog/wp-includes/css/dist/block-library/style.min.css?ver=5.6' media='all' />
+<link rel='stylesheet' id='generate-style-css'  href='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/css/all.min.css?ver=3.0.2' media='all' />
+<style id='generate-style-inline-css'>
+body{background-color:#fffcf9;color:#222222;}a{color:#1e73be;}a:hover, a:focus, a:active{color:#ffffff;}body .grid-container{max-width:1045px;}.wp-block-group__inner-container{max-width:1045px;margin-left:auto;margin-right:auto;}.navigation-search{position:absolute;left:-99999px;pointer-events:none;visibility:hidden;z-index:20;width:100%;top:0;transition:opacity 100ms ease-in-out;opacity:0;}.navigation-search.nav-search-active{left:0;right:0;pointer-events:auto;visibility:visible;opacity:1;}.navigation-search input[type="search"]{outline:0;border:0;vertical-align:bottom;line-height:1;opacity:0.9;width:100%;z-index:20;border-radius:0;-webkit-appearance:none;height:60px;}.navigation-search input::-ms-clear{display:none;width:0;height:0;}.navigation-search input::-ms-reveal{display:none;width:0;height:0;}.navigation-search input::-webkit-search-decoration, .navigation-search input::-webkit-search-cancel-button, .navigation-search input::-webkit-search-results-button, .navigation-search input::-webkit-search-results-decoration{display:none;}.main-navigation li.search-item{z-index:21;}li.search-item.active{transition:opacity 100ms ease-in-out;}.nav-left-sidebar .main-navigation li.search-item.active,.nav-right-sidebar .main-navigation li.search-item.active{width:auto;display:inline-block;float:right;}.gen-sidebar-nav .navigation-search{top:auto;bottom:0;}.dropdown-click .main-navigation ul ul{display:none;visibility:hidden;}.dropdown-click .main-navigation ul ul ul.toggled-on{left:0;top:auto;position:relative;}.dropdown-click .main-navigation ul.toggled-on, .dropdown-click .main-navigation ul li.sfHover > ul.toggled-on{display:block;left:auto;right:auto;opacity:1;visibility:visible;pointer-events:auto;height:auto;overflow:visible;}.dropdown-click .main-navigation.sub-menu-left .sub-menu.toggled-on, .dropdown-click .main-navigation.sub-menu-left ul li.sfHover > ul.toggled-on{right:0;}.dropdown-click nav ul ul ul{background-color:transparent;}.dropdown-click .widget-area .main-navigation ul ul{top:auto;position:absolute;float:none;width:100%;left:-99999px;}.dropdown-click .widget-area .main-navigation ul ul.toggled-on{position:relative;left:0;right:0;}.dropdown-click .widget-area.sidebar .main-navigation ul li.sfHover ul, .dropdown-click .widget-area.sidebar .main-navigation ul li:hover ul{right:0;left:0;}.dropdown-click .sfHover > a > .dropdown-menu-toggle > .gp-icon svg{transform:rotate(180deg);}body, button, input, select, textarea{font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}body{line-height:1.5;}.entry-content > [class*="wp-block-"]:not(:last-child){margin-bottom:1.5em;}.main-title{font-size:45px;}.main-navigation .main-nav ul ul li a{font-size:14px;}.sidebar .widget, .footer-widgets .widget{font-size:17px;}h1{font-weight:bold;}@media (max-width:768px){h1{font-size:31px;}h2{font-size:27px;}h3{font-size:24px;}h4{font-size:22px;}h5{font-size:19px;}}.top-bar{background-color:#636363;color:#ffffff;}.top-bar a{color:#ffffff;}.top-bar a:hover{color:#303030;}.site-header{background-color:#ffffff;}.main-title a,.main-title a:hover{color:#222222;}.site-description{color:#757575;}.main-navigation,.main-navigation ul ul{background-color:#1e73be;}.main-navigation .main-nav ul li a,.menu-toggle, .main-navigation .menu-bar-items{color:#ffffff;}.main-navigation .main-nav ul li:hover > a,.main-navigation .main-nav ul li:focus > a, .main-navigation .main-nav ul li.sfHover > a, .main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{color:#ffffff;background-color:#035a9e;}button.menu-toggle:hover,button.menu-toggle:focus,.main-navigation .mobile-bar-items a,.main-navigation .mobile-bar-items a:hover,.main-navigation .mobile-bar-items a:focus{color:#ffffff;}.main-navigation .main-nav ul li[class*="current-menu-"] > a{color:#ffffff;background-color:#035a9e;}.main-navigation .main-nav ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul li[class*="current-menu-"].sfHover > a{color:#ffffff;background-color:#035a9e;}.navigation-search input[type="search"],.navigation-search input[type="search"]:active, .navigation-search input[type="search"]:focus, .main-navigation .main-nav ul li.search-item.active > a, .main-navigation .menu-bar-items .search-item.active > a{color:#ffffff;background-color:#035a9e;}.main-navigation ul ul{background-color:#035a9e;}.main-navigation .main-nav ul ul li a{color:#ffffff;}.main-navigation .main-nav ul ul li:hover > a,.main-navigation .main-nav ul ul li:focus > a,.main-navigation .main-nav ul ul li.sfHover > a{color:#bbd2e8;background-color:#035a9e;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a{color:#bbd2e8;background-color:#035a9e;}.main-navigation .main-nav ul ul li[class*="current-menu-"] > a:hover,.main-navigation .main-nav ul ul li[class*="current-menu-"].sfHover > a{color:#bbd2e8;background-color:#035a9e;}.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .one-container .container, .separate-containers .paging-navigation, .inside-page-header{background-color:#ffffff;}.entry-title a{color:#222222;}.entry-title a:hover{color:#55555e;}.entry-meta{color:#595959;}.sidebar .widget{background-color:#ffffff;}.footer-widgets{background-color:#ffffff;}.footer-widgets .widget-title{color:#000000;}.site-info{color:#ffffff;background-color:#55555e;}.site-info a{color:#ffffff;}.site-info a:hover{color:#d3d3d3;}.footer-bar .widget_nav_menu .current-menu-item a{color:#d3d3d3;}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="tel"],input[type="number"],textarea,select{color:#666666;background-color:#fafafa;border-color:#cccccc;}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="tel"]:focus,input[type="number"]:focus,textarea:focus,select:focus{color:#666666;background-color:#ffffff;border-color:#bfbfbf;}button,html input[type="button"],input[type="reset"],input[type="submit"],a.button,a.wp-block-button__link:not(.has-background){color:#ffffff;background-color:#55555e;}button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover,a.button:hover,button:focus,html input[type="button"]:focus,input[type="reset"]:focus,input[type="submit"]:focus,a.button:focus,a.wp-block-button__link:not(.has-background):active,a.wp-block-button__link:not(.has-background):focus,a.wp-block-button__link:not(.has-background):hover{color:#ffffff;background-color:#3f4047;}a.generate-back-to-top{background-color:rgba( 0,0,0,0.4 );color:#ffffff;}a.generate-back-to-top:hover,a.generate-back-to-top:focus{background-color:rgba( 0,0,0,0.6 );color:#ffffff;}@media (max-width:768px){.main-navigation .menu-bar-item:hover > a, .main-navigation .menu-bar-item.sfHover > a{background:none;color:#ffffff;}}.inside-header{padding:40px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-40px;width:calc(100% + 80px);max-width:calc(100% + 80px);}.rtl .menu-item-has-children .dropdown-menu-toggle{padding-left:20px;}.rtl .main-navigation .main-nav ul li.menu-item-has-children > a{padding-right:20px;}@media (max-width:768px){.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container{padding:30px;}.inside-top-bar{padding-right:30px;padding-left:30px;}.inside-header{padding-right:30px;padding-left:30px;}.widget-area .widget{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.footer-widgets{padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px;}.site-info{padding-right:30px;padding-left:30px;}.entry-content .alignwide, body:not(.no-sidebar) .entry-content .alignfull{margin-left:-30px;width:calc(100% + 60px);max-width:calc(100% + 60px);}}.one-container .sidebar .widget{padding:0px;}/* End cached CSS */@media (max-width:768px){.main-navigation .menu-toggle,.main-navigation .mobile-bar-items,.sidebar-nav-mobile:not(#sticky-placeholder){display:block;}.main-navigation ul,.gen-sidebar-nav{display:none;}[class*="nav-float-"] .site-header .inside-header > *{float:none;clear:both;}}
+</style>
+<link rel='stylesheet' id='generate-font-icons-css'  href='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/css/components/font-icons.min.css?ver=3.0.2' media='all' />
+<link rel="https://api.w.org/" href="https://minevote.xyz/blog/wp-json/" /><link rel="alternate" type="application/json" href="https://minevote.xyz/blog/wp-json/wp/v2/posts/19" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://minevote.xyz/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://minevote.xyz/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.6" />
+<link rel="canonical" href="https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/" />
+<link rel='shortlink' href='https://minevote.xyz/blog/?p=19' />
+<link rel="alternate" type="application/json+oembed" href="https://minevote.xyz/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fminevote.xyz%2Fblog%2F2021%2F01%2F17%2Fhow-to-read-minecraft-crash-reports%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://minevote.xyz/blog/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fminevote.xyz%2Fblog%2F2021%2F01%2F17%2Fhow-to-read-minecraft-crash-reports%2F&#038;format=xml" />
+<link rel="pingback" href="https://minevote.xyz/blog/xmlrpc.php">
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+
+<body class="post-template-default single single-post postid-19 single-format-standard wp-embed-responsive right-sidebar nav-below-header separate-containers fluid-header active-footer-widgets-0 nav-search-enabled nav-aligned-left header-aligned-left dropdown-click-arrow dropdown-click featured-image-active" itemtype="https://schema.org/Blog" itemscope>
+	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>		<header id="masthead" class="site-header" itemtype="https://schema.org/WPHeader" itemscope>
+			<div class="inside-header grid-container grid-parent">
+				<div class="site-branding">
+						<p class="main-title" itemprop="headline">
+					<a href="https://minevote.xyz/blog/" rel="home">
+						MineVote - Blog
+					</a>
+				</p>
+						<p class="site-description" itemprop="description">
+					Minecraft Server Guide
+				</p>
+					</div>			</div>
+		</header>
+				<nav id="site-navigation" class="main-navigation sub-menu-right" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+			<div class="inside-navigation grid-container grid-parent">
+				<form method="get" class="search-form navigation-search" action="https://minevote.xyz/blog/">
+					<input type="search" class="search-field" value="" name="s" title="Search" />
+				</form>		<div class="mobile-bar-items">
+						<span class="search-item">
+				<a aria-label="Open Search Bar" href="#">
+									</a>
+			</span>
+		</div>
+						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+					<span class="mobile-menu">Menu</span>				</button>
+				<div id="primary-menu" class="main-nav"><ul id="menu-minevote" class="menu sf-menu"><li id="menu-item-62" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-62"><a href="https://minevote.xyz/">Home</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="https://minevote.xyz/blog/privacy/">Privacy</a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65"><a href="https://minevote.xyz/contact">Contact Us</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-66"><a href="https://minevote.xyz/start">Join Discord</a></li>
+<li class="search-item menu-item-align-right"><a aria-label="Open Search Bar" href="#"></a></li></ul></div>			</div>
+		</nav>
+		
+	<div id="page" class="site grid-container container hfeed grid-parent">
+				<div id="content" class="site-content">
+			
+	<div id="primary" class="content-area grid-parent mobile-grid-100 grid-75 tablet-grid-75">
+		<main id="main" class="site-main">
+			
+<article id="post-19" class="post-19 post type-post status-publish format-standard has-post-thumbnail hentry category-server tag-50-minecraft-server tag-budget-minecraft-server tag-custom-minecraft-server tag-funny-minecraft tag-how-to-build-a-minecraft-server tag-how-to-make-a-minecraft-server tag-how-to-setup-a-minecraft-server tag-how-to-setup-a-minecraft-server-1-16-4 tag-minecraft tag-minecraft-but tag-minecraft-funny-moments tag-minecraft-map tag-minecraft-mod tag-minecraft-school-server tag-minecraft-server tag-minecraft-server-1-16-4 tag-minecraft-servers tag-minecraft-skeppy tag-minecraft-survival tag-minecraft-troll tag-minecraft-trolling tag-minecraft-youtuber tag-server" itemtype="https://schema.org/CreativeWork" itemscope>
+	<div class="inside-article">
+				<div class="featured-image page-header-image-single grid-container grid-parent">
+			<img width="640" height="360" src="https://minevote.xyz/blog/wp-content/uploads/2021/01/minecraft-1106261_1280.jpg" class="attachment-full size-full wp-post-image" alt="" loading="lazy" itemprop="image" />		</div>
+					<header class="entry-header">
+				<h1 class="entry-title" itemprop="headline">How to Read Minecraft Crash Reports</h1>		<div class="entry-meta">
+			<span class="posted-on"><time class="entry-date published" datetime="2021-01-17T06:25:22+00:00" itemprop="datePublished">January 17, 2021</time></span> <span class="byline">by <span class="author vcard" itemprop="author" itemtype="https://schema.org/Person" itemscope><a class="url fn n" href="https://minevote.xyz/blog/author/minevote-xyzgmail-com/" title="View all posts by minevote.xyz@gmail.com" rel="author" itemprop="url"><span class="author-name" itemprop="name">minevote.xyz@gmail.com</span></a></span></span> 		</div>
+					</header>
+			
+		<div class="entry-content" itemprop="text">
+			
+<p><strong>&nbsp;How to Read Minecraft Crash Reports</strong></p>
+
+
+
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/7383508844279984698#"><img src="https://1.bp.blogspot.com/-CpQiDHwbPrc/X-8DXDpMRkI/AAAAAAAAABk/elJ_fAe3ggcvFL45DjBKCRS3-4gnz5nrACLcBGAsYHQ/w640-h360/minecraft-1106261_1280.webp" alt=""/></a></figure>
+
+
+
+<p><strong><br></strong></p>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>Many times when modifying a server you may experience issues with the&nbsp;server crashing. These crashes are generally caused by either mods, the world, or the server jar. When a server crashes, it generates a crash report in the FTP File Access. These crash reports break down why the server crashes and can help you get a better understanding of what’s wrong and how to fix it. At first look, it may seem confusing but all crash reports are similar and once you know what to look for you will be able to accurately read Minecraft crash reports.</p>
+
+
+
+<h2>Understanding a Crash Report</h2>
+
+
+
+<p>Where to find the crash reports</p>
+
+
+
+<ol><li>Head to your Game Panel and to the left, press FTP File Access and log in.</li><li>Once in FTP File Access, you will see a folder named `crash-reports`. Go ahead and click that. Looking inside of that directory you will notice a file or multiple files.</li><li>Every file is written with the date (2019-08-17) which makes it easy to know when each report was made. When there are several files it’s always best to look at the latest and most recent crash to identify the issue.</li><li>To read the crash report, click the “edit” link to the right of the file.</li></ol>
+
+
+
+<p>Reading the Crash Report</p>
+
+
+
+<pre class="wp-block-preformatted">---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 1/24/20 7:25 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [1.5.2,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod thaumcraft (Thaumcraft) requires [baubles@[1.5.2,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+
+
+
+<p>This is the top portion of the report where it will have the date, time and stack trace. The stack trace is a report of when a program runs at a certain time in its execution. This will be primarily where we will discover the error that is causing the server or client to crash.<br>It looks like a lot but by looking carefully we can deduce the error by picking certain parts of the stack trace out. In this example, we can tell that a mod is missing due to part of the stack trace saying&nbsp;&#8220;Missing Mods: unknown : need [1.5.2,): have missing&#8221;.&nbsp;If we go down to the next line we can see that it tells&nbsp;&#8220;net.minecraftforge.fml.common.MissingModsException: Mod thaumcraft (Thaumcraft) requires [baubles@[1.5.2,)]&#8221;&nbsp;which translates to the mod Thaumcraft needs the mod Baubles version 1.5.2 in order to run properly.</p>
+
+
+
+<pre class="wp-block-preformatted">A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 3.10.0-957.27.2.el7.x86_64
+	Java Version: 1.8.0_222, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1474787976 bytes (1406 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 4 total; -Xmx2048M -Xms2048M -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID         | Version      | Source                           | Signature |
+	|:----- |:---------- |:------------ |:-------------------------------- |:--------- |
+	| L     | minecraft  | 1.12.2       | minecraft.jar                    | None      |
+	| L     | mcp        | 9.42         | minecraft.jar                    | None      |
+	| L     | FML        | 8.0.99.99    | forge1122.jar                    | None      |
+	| L     | forge      | 14.23.5.2847 | forge1122.jar                    | None      |
+	| L     | thaumcraft | 6.1.BETA26   | Thaumcraft-1.12.2-6.1.BETA26.jar | None      |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
+</pre>
+
+
+
+<p>The second half of the crash report will go over your system details and the states of the mods loading in. This can be very important especially with client-side crashing as you can find our what version of Java they are running, how much ram they have allocated and the versions of the mods to be able to assist them. One of the best tools with crash reports is knowing the States in which a mod loads in. These states are as follows:&nbsp;&#8216;U&#8217; = Unloaded &#8216;L&#8217; = Loaded &#8216;C&#8217; = Constructed &#8216;H&#8217; = Pre-initialized &#8216;I&#8217; = Initialized &#8216;J&#8217; = Post-initialized &#8216;A&#8217; = Available &#8216;D&#8217; = Disabled &#8216;E&#8217; = Errored<br>You can see these states to the left of each mod. In this example, they only made it to the loaded state. So if you have a mod that was UCE that would mean the mod Unloaded, Constructed and than Errored which means there was an error with loading that particular mod causing it to crash so you now know what the exact mod causing the issue is and can look into why it&#8217;s occurring.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>There are hundreds of different reasons that your server may crash, it can be from a world issue, server jar, mods, and far more. As long as you can narrow down what the reason is, the solution should come easier. If you can narrow down it’s a world issue, you can Google the error line to see if there are any solutions or you can restore a backup. With so many different solutions to so many different problems, there isn’t a way to break down each individual error you can get.</p>
+		</div>
+
+				<footer class="entry-meta">
+			<span class="cat-links"><span class="screen-reader-text">Categories </span><a href="https://minevote.xyz/blog/category/server/" rel="category tag">Server</a></span> <span class="tags-links"><span class="screen-reader-text">Tags </span><a href="https://minevote.xyz/blog/tag/50-minecraft-server/" rel="tag">$50 minecraft server</a>, <a href="https://minevote.xyz/blog/tag/budget-minecraft-server/" rel="tag">budget minecraft server</a>, <a href="https://minevote.xyz/blog/tag/custom-minecraft-server/" rel="tag">custom minecraft server</a>, <a href="https://minevote.xyz/blog/tag/funny-minecraft/" rel="tag">funny minecraft</a>, <a href="https://minevote.xyz/blog/tag/how-to-build-a-minecraft-server/" rel="tag">how to build a minecraft server</a>, <a href="https://minevote.xyz/blog/tag/how-to-make-a-minecraft-server/" rel="tag">how to make a minecraft server</a>, <a href="https://minevote.xyz/blog/tag/how-to-setup-a-minecraft-server/" rel="tag">how to setup a minecraft server</a>, <a href="https://minevote.xyz/blog/tag/how-to-setup-a-minecraft-server-1-16-4/" rel="tag">how to setup a minecraft server 1.16.4</a>, <a href="https://minevote.xyz/blog/tag/minecraft/" rel="tag">minecraft</a>, <a href="https://minevote.xyz/blog/tag/minecraft-but/" rel="tag">minecraft but</a>, <a href="https://minevote.xyz/blog/tag/minecraft-funny-moments/" rel="tag">minecraft funny moments</a>, <a href="https://minevote.xyz/blog/tag/minecraft-map/" rel="tag">minecraft map</a>, <a href="https://minevote.xyz/blog/tag/minecraft-mod/" rel="tag">minecraft mod</a>, <a href="https://minevote.xyz/blog/tag/minecraft-school-server/" rel="tag">minecraft school server</a>, <a href="https://minevote.xyz/blog/tag/minecraft-server/" rel="tag">minecraft server</a>, <a href="https://minevote.xyz/blog/tag/minecraft-server-1-16-4/" rel="tag">minecraft server 1.16.4</a>, <a href="https://minevote.xyz/blog/tag/minecraft-servers/" rel="tag">minecraft servers</a>, <a href="https://minevote.xyz/blog/tag/minecraft-skeppy/" rel="tag">minecraft skeppy</a>, <a href="https://minevote.xyz/blog/tag/minecraft-survival/" rel="tag">minecraft survival</a>, <a href="https://minevote.xyz/blog/tag/minecraft-troll/" rel="tag">minecraft troll</a>, <a href="https://minevote.xyz/blog/tag/minecraft-trolling/" rel="tag">minecraft trolling</a>, <a href="https://minevote.xyz/blog/tag/minecraft-youtuber/" rel="tag">minecraft youtuber</a>, <a href="https://minevote.xyz/blog/tag/server/" rel="tag">server</a></span> 		<nav id="nav-below" class="post-navigation">
+			<span class="screen-reader-text">Post navigation</span>
+
+			<div class="nav-previous"><span class="prev" title="Previous"><a href="https://minevote.xyz/blog/2021/01/17/minecraft-everything-sculk-v1-17-whats-inside/" rel="prev">Minecraft: Everything Sculk! v1.17 ? Whats Inside</a></span></div><div class="nav-next"><span class="next" title="Next"><a href="https://minevote.xyz/blog/2021/01/17/how-to-make-a-bed-in-minecraft/" rel="next">How to make a Bed in Minecraft</a></span></div>		</nav>
+				</footer>
+			</div>
+</article>
+
+			<div class="comments-area">
+				
+<div id="disqus_thread"></div>
+			</div>
+
+					</main>
+	</div>
+
+	<div id="right-sidebar" class="widget-area sidebar is-right-sidebar grid-25 tablet-grid-25 grid-parent" itemtype="https://schema.org/WPSideBar" itemscope>
+	<div class="inside-right-sidebar">
+		<aside id="search-2" class="widget inner-padding widget_search"><form method="get" class="search-form" action="https://minevote.xyz/blog/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search"></form>
+</aside>
+		<aside id="recent-posts-2" class="widget inner-padding widget_recent_entries">
+		<h2 class="widget-title">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/netherite-in-minecraft-a-guide/">Netherite in Minecraft: A Guide</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-fix-the-ticking-entity-crash-in-minecraft-server/">How To Fix The Ticking Entity Crash in Minecraft Server ?</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-play-minecraft-with-friends/">How to Play Minecraft with Friends ?</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/minecraft-failed-to-verify-username-error-fix/">Minecraft ‘Failed to Verify Username’ Error FIX</a>
+									</li>
+											<li>
+					<a href="https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/">How to OP Yourself In Minecraft Server</a>
+									</li>
+					</ul>
+
+		</aside><aside id="recent-comments-2" class="widget inner-padding widget_recent_comments"><h2 class="widget-title">Recent Comments</h2><ul id="recentcomments"></ul></aside>	</div>
+</div>
+
+	</div>
+</div>
+
+
+<div class="site-footer">
+			<footer class="site-info" itemtype="https://schema.org/WPFooter" itemscope>
+			<div class="inside-site-info">
+								<div class="copyright-bar">
+					<span class="copyright">&copy; 2021 MineVote - Blog</span> &bull; Built with <a href="https://generatepress.com/" itemprop="url">GeneratePress</a>				</div>
+			</div>
+		</footer>
+		</div>
+
+<script id='disqus_count-js-extra'>
+var countVars = {"disqusShortname":"minvote"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.19' id='disqus_count-js'></script>
+<script id='disqus_embed-js-extra'>
+var embedVars = {"disqusConfig":{"integration":"wordpress 3.0.19"},"disqusIdentifier":"19 https:\/\/minevote.xyz\/blog\/?p=19","disqusShortname":"minvote","disqusTitle":"How to Read Minecraft Crash Reports","disqusUrl":"https:\/\/minevote.xyz\/blog\/2021\/01\/17\/how-to-read-minecraft-crash-reports\/","postId":"19"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/plugins/disqus-comment-system/public/js/comment_embed.js?ver=3.0.19' id='disqus_embed-js'></script>
+<!--[if lte IE 11]>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/classList.min.js?ver=3.0.2' id='generate-classlist-js'></script>
+<![endif]-->
+<script id='generate-main-js-extra'>
+var generatepressMenu = {"toggleOpenedSubMenus":"1","openSubMenuLabel":"Open Sub-Menu","closeSubMenuLabel":"Close Sub-Menu"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/main.min.js?ver=3.0.2' id='generate-main-js'></script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/dropdown-click.min.js?ver=3.0.2' id='generate-dropdown-click-js'></script>
+<script id='generate-navigation-search-js-extra'>
+var generatepressNavSearch = {"open":"Open Search Bar","close":"Close Search Bar"};
+</script>
+<script src='https://minevote.xyz/blog/wp-content/themes/generatepress/assets/js/navigation-search.min.js?ver=3.0.2' id='generate-navigation-search-js'></script>
+<script src='https://minevote.xyz/blog/wp-includes/js/comment-reply.min.js?ver=5.6' id='comment-reply-js'></script>
+<script src='https://minevote.xyz/blog/wp-includes/js/wp-embed.min.js?ver=5.6' id='wp-embed-js'></script>
+
+</body>
+</html>

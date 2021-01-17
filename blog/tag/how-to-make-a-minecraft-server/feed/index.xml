@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>how to make a minecraft server &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/how-to-make-a-minecraft-server/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:25:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How to Read Minecraft Crash Reports</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:25:22 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[$50 minecraft server]]></category>
+		<category><![CDATA[budget minecraft server]]></category>
+		<category><![CDATA[custom minecraft server]]></category>
+		<category><![CDATA[funny minecraft]]></category>
+		<category><![CDATA[how to build a minecraft server]]></category>
+		<category><![CDATA[how to make a minecraft server]]></category>
+		<category><![CDATA[how to setup a minecraft server]]></category>
+		<category><![CDATA[how to setup a minecraft server 1.16.4]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft but]]></category>
+		<category><![CDATA[minecraft funny moments]]></category>
+		<category><![CDATA[minecraft map]]></category>
+		<category><![CDATA[minecraft mod]]></category>
+		<category><![CDATA[minecraft school server]]></category>
+		<category><![CDATA[minecraft server]]></category>
+		<category><![CDATA[minecraft server 1.16.4]]></category>
+		<category><![CDATA[minecraft servers]]></category>
+		<category><![CDATA[minecraft skeppy]]></category>
+		<category><![CDATA[minecraft survival]]></category>
+		<category><![CDATA[minecraft troll]]></category>
+		<category><![CDATA[minecraft trolling]]></category>
+		<category><![CDATA[minecraft youtuber]]></category>
+		<category><![CDATA[server]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=19</guid>
+
+					<description><![CDATA[&#160;How to Read Minecraft Crash Reports Overview Many times when modifying a server you may experience issues with the&#160;server crashing. These crashes are generally caused by either mods, the world, or the server jar. When a server crashes, it generates a crash report in the FTP File Access. These crash reports break down why the ... <a title="How to Read Minecraft Crash Reports" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/" aria-label="More on How to Read Minecraft Crash Reports">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>&nbsp;How to Read Minecraft Crash Reports</strong></p>
+
+
+
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/7383508844279984698#"><img src="https://1.bp.blogspot.com/-CpQiDHwbPrc/X-8DXDpMRkI/AAAAAAAAABk/elJ_fAe3ggcvFL45DjBKCRS3-4gnz5nrACLcBGAsYHQ/w640-h360/minecraft-1106261_1280.webp" alt=""/></a></figure>
+
+
+
+<p><strong><br></strong></p>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>Many times when modifying a server you may experience issues with the&nbsp;server crashing. These crashes are generally caused by either mods, the world, or the server jar. When a server crashes, it generates a crash report in the FTP File Access. These crash reports break down why the server crashes and can help you get a better understanding of what’s wrong and how to fix it. At first look, it may seem confusing but all crash reports are similar and once you know what to look for you will be able to accurately read Minecraft crash reports.</p>
+
+
+
+<h2>Understanding a Crash Report</h2>
+
+
+
+<p>Where to find the crash reports</p>
+
+
+
+<ol><li>Head to your Game Panel and to the left, press FTP File Access and log in.</li><li>Once in FTP File Access, you will see a folder named `crash-reports`. Go ahead and click that. Looking inside of that directory you will notice a file or multiple files.</li><li>Every file is written with the date (2019-08-17) which makes it easy to know when each report was made. When there are several files it’s always best to look at the latest and most recent crash to identify the issue.</li><li>To read the crash report, click the “edit” link to the right of the file.</li></ol>
+
+
+
+<p>Reading the Crash Report</p>
+
+
+
+<pre class="wp-block-preformatted">---- Minecraft Crash Report ----
+// Everything's going to plan. No, really, that was supposed to happen.
+
+Time: 1/24/20 7:25 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [1.5.2,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod thaumcraft (Thaumcraft) requires [baubles@[1.5.2,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+</pre>
+
+
+
+<p>This is the top portion of the report where it will have the date, time and stack trace. The stack trace is a report of when a program runs at a certain time in its execution. This will be primarily where we will discover the error that is causing the server or client to crash.<br>It looks like a lot but by looking carefully we can deduce the error by picking certain parts of the stack trace out. In this example, we can tell that a mod is missing due to part of the stack trace saying&nbsp;&#8220;Missing Mods: unknown : need [1.5.2,): have missing&#8221;.&nbsp;If we go down to the next line we can see that it tells&nbsp;&#8220;net.minecraftforge.fml.common.MissingModsException: Mod thaumcraft (Thaumcraft) requires [baubles@[1.5.2,)]&#8221;&nbsp;which translates to the mod Thaumcraft needs the mod Baubles version 1.5.2 in order to run properly.</p>
+
+
+
+<pre class="wp-block-preformatted">A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 3.10.0-957.27.2.el7.x86_64
+	Java Version: 1.8.0_222, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1474787976 bytes (1406 MB) / 2075918336 bytes (1979 MB) up to 2075918336 bytes (1979 MB)
+	JVM Flags: 4 total; -Xmx2048M -Xms2048M -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID         | Version      | Source                           | Signature |
+	|:----- |:---------- |:------------ |:-------------------------------- |:--------- |
+	| L     | minecraft  | 1.12.2       | minecraft.jar                    | None      |
+	| L     | mcp        | 9.42         | minecraft.jar                    | None      |
+	| L     | FML        | 8.0.99.99    | forge1122.jar                    | None      |
+	| L     | forge      | 14.23.5.2847 | forge1122.jar                    | None      |
+	| L     | thaumcraft | 6.1.BETA26   | Thaumcraft-1.12.2-6.1.BETA26.jar | None      |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
+</pre>
+
+
+
+<p>The second half of the crash report will go over your system details and the states of the mods loading in. This can be very important especially with client-side crashing as you can find our what version of Java they are running, how much ram they have allocated and the versions of the mods to be able to assist them. One of the best tools with crash reports is knowing the States in which a mod loads in. These states are as follows:&nbsp;&#8216;U&#8217; = Unloaded &#8216;L&#8217; = Loaded &#8216;C&#8217; = Constructed &#8216;H&#8217; = Pre-initialized &#8216;I&#8217; = Initialized &#8216;J&#8217; = Post-initialized &#8216;A&#8217; = Available &#8216;D&#8217; = Disabled &#8216;E&#8217; = Errored<br>You can see these states to the left of each mod. In this example, they only made it to the loaded state. So if you have a mod that was UCE that would mean the mod Unloaded, Constructed and than Errored which means there was an error with loading that particular mod causing it to crash so you now know what the exact mod causing the issue is and can look into why it&#8217;s occurring.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>There are hundreds of different reasons that your server may crash, it can be from a world issue, server jar, mods, and far more. As long as you can narrow down what the reason is, the solution should come easier. If you can narrow down it’s a world issue, you can Google the error line to see if there are any solutions or you can restore a backup. With so many different solutions to so many different problems, there isn’t a way to break down each individual error you can get.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-read-minecraft-crash-reports/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

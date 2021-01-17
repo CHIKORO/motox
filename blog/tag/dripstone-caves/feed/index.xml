@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dripstone caves &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/dripstone-caves/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:29:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>Minecraft: Dripstone Caves v.1.17 What&#8217;s Coming ?</title>
+		<link>https://minevote.xyz/blog/2021/01/17/minecraft-dripstone-caves-v-1-17-whats-coming/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/minecraft-dripstone-caves-v-1-17-whats-coming/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:29:16 +0000</pubDate>
+				<category><![CDATA[v.1.17]]></category>
+		<category><![CDATA[dripstone]]></category>
+		<category><![CDATA[dripstone cave]]></category>
+		<category><![CDATA[dripstone cave minecraft]]></category>
+		<category><![CDATA[dripstone caves]]></category>
+		<category><![CDATA[dripstone caves biome]]></category>
+		<category><![CDATA[dripstone caves minecraft]]></category>
+		<category><![CDATA[dripstone minecraft]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft 1.17]]></category>
+		<category><![CDATA[minecraft 1.17 dripstone caves]]></category>
+		<category><![CDATA[minecraft 1.17 snapshot]]></category>
+		<category><![CDATA[minecraft cave update]]></category>
+		<category><![CDATA[minecraft caves & cliffs]]></category>
+		<category><![CDATA[minecraft caves & cliffs update]]></category>
+		<category><![CDATA[minecraft caves and cliffs]]></category>
+		<category><![CDATA[minecraft caves and cliffs update]]></category>
+		<category><![CDATA[minecraft dripstone]]></category>
+		<category><![CDATA[minecraft dripstone cave]]></category>
+		<category><![CDATA[minecraft dripstone caves]]></category>
+		<category><![CDATA[minecraft lush caves]]></category>
+		<category><![CDATA[pointed dripstone]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=25</guid>
+
+					<description><![CDATA[Minecraft: Dripstone Caves v.1.17 What&#8217;s Coming ?Overview So, 1.17 is on the horizon while snapshots are coming out the woodwork left and right. And what do they decide to drop on our doorstep? Dripstone. Minecraft introduces something that the modding community has adored for so long in improved cave generation, biomes. With that, comes the ... <a title="Minecraft: Dripstone Caves v.1.17 What&#8217;s Coming ?" class="read-more" href="https://minevote.xyz/blog/2021/01/17/minecraft-dripstone-caves-v-1-17-whats-coming/" aria-label="More on Minecraft: Dripstone Caves v.1.17 What&#8217;s Coming ?">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h2>Minecraft: Dripstone Caves v.1.17 What&#8217;s Coming ?<br><img loading="lazy" alt="dripstone caves" height="360" src="https://cdn.apexminecrafthosting.com/img/uploads/2020/10/09213930/dripstone-caves.jpg" width="640"><br>Overview</h2>
+
+
+
+<p>So, 1.17 is on the horizon while snapshots are coming out the woodwork left and right. And what do they decide to drop on our doorstep? Dripstone. Minecraft introduces something that the modding community has adored for so long in improved cave generation, biomes. With that, comes the newest and coolest biome in the latest snapshot, 20w49a, the Dripstone Caves.</p>
+
+
+
+<p>Today, we’ll be going over the fairly short yet interesting compilation of mechanics surrounding Dripstone. Let’s get started.</p>
+
+
+
+<h3>Dripstone</h3>
+
+
+
+<p>If you don’t know what Dripstone is, Dripstone is a new block that will be included in the newest 1.17 Caves and Cliffs update. They can generate on the floors and ceilings of the newest biome, Dripstone Caves. They come in two variants. Stalactites and Stalagmites. These are basically fancy ways of saying top or bottom Dripstone. If it descends from the ceiling, it is a Stalactite. If it sprouts from the ground, its is a Stalagmite. That’s all the information we have so far on these things in regards to formation!</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.apexminecrafthosting.com/img/uploads/2020/12/11202435/dripstone.png" alt="dripstone"/></figure>
+
+
+
+<h3>Dripstone Caves</h3>
+
+
+
+<p><br>Dripstone MechanicsDripstone Caves are the main, and first underground biome where Dripstone spawns. The block will cover most of the ceiling and floor, posing quite the hazard to mobs and players alike. They also look extremely majestic when making large formations around a cave.</p>
+
+
+
+<figure class="wp-block-image"><img src="https://cdn.apexminecrafthosting.com/img/uploads/2020/12/11202429/dripstone-dripping.jpg" alt="dripstone dripping"/></figure>
+
+
+
+<p>Drip Drop&nbsp;– Dripstone actually drips! Putting a source block of lava or water on top of a Stalactite will eventually lead to that liquid dripping off the tip. Leaving a Cauldron under will actually fill it over time. This also means you can now fill Cauldrons with Lava!</p>
+
+
+
+<p>INFINITE LAVA&nbsp;– With the new mechanic that I have dubbed ‘Drip Drop’ you can now infinitely produce lava! All you need is one bucket full of lava, and have the Dripstone drop it in a Cauldron. Do this multiple times to constantly produce more lava!</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>Dripstone is a fairly developed addition to Minecraft which I think is a net gain for 1.17. It adds in Stalactites and Stalagmites like the modded community has begged for while also keeping that beautiful Minecraft aesthetic. On top of that, it adds some mechanical functionality which is always appreciated. Also, an awesome themed underground biome to boot! Overall, a great welcome addition to the game.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/minecraft-dripstone-caves-v-1-17-whats-coming/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>minecraft fps &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/minecraft-fps/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:22:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How To Reduce Lag On MineCraft Server.</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-reduce-lag-on-minecraft-server/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-reduce-lag-on-minecraft-server/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:17:13 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[best minecraft video settings]]></category>
+		<category><![CDATA[fix lag in minecraft]]></category>
+		<category><![CDATA[fix lag minecraft]]></category>
+		<category><![CDATA[fix lag spikes in minecraft 1.16]]></category>
+		<category><![CDATA[how to fix lag in minecraft]]></category>
+		<category><![CDATA[how to fix minecraft lag]]></category>
+		<category><![CDATA[how to reduce lag in minecraft pe 1.16]]></category>
+		<category><![CDATA[lag]]></category>
+		<category><![CDATA[lag fix]]></category>
+		<category><![CDATA[low fps minecraft 1.16]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft fix lag]]></category>
+		<category><![CDATA[minecraft fps]]></category>
+		<category><![CDATA[minecraft fps fix]]></category>
+		<category><![CDATA[minecraft lag]]></category>
+		<category><![CDATA[minecraft lag fix]]></category>
+		<category><![CDATA[minecraft lag fix 1.16.2]]></category>
+		<category><![CDATA[minecraft lag fix 2020]]></category>
+		<category><![CDATA[minecraft lag guide]]></category>
+		<category><![CDATA[minecraft lag machine]]></category>
+		<category><![CDATA[minecraft no lag]]></category>
+		<category><![CDATA[more fps minecraft]]></category>
+		<category><![CDATA[no lag minecraft]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=12</guid>
+
+					<description><![CDATA[&#160;How To Reduce Lag On MineCraft Server. Lets understand What is Lag in Minecraft server , Well &#8220;Mike&#8221; Server Lags To Much , and Mike Decided Lets Ask From Readers Why My Server is Lagging?Lagg Yes, We say Lagg not lag in Minecraft The Extra G is for really Good Lagg.&#160;Server Lags are of 3 ... <a title="How To Reduce Lag On MineCraft Server." class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-reduce-lag-on-minecraft-server/" aria-label="More on How To Reduce Lag On MineCraft Server.">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h1><strong>&nbsp;How To Reduce Lag On MineCraft Server.</strong></h1>
+
+
+
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/807727248166018332#"><img src="https://1.bp.blogspot.com/-V6HLsoxupFU/X-73ylBBi6I/AAAAAAAAABM/__iF1WI19xkyU7HTVNxazhynreEHBRs6QCLcBGAsYHQ/w640-h360/minecraft-1106253_1280.png" alt=""/></a></figure>
+
+
+
+<p>Lets understand What is Lag in Minecraft server , Well &#8220;Mike&#8221; Server Lags To Much , and Mike Decided Lets Ask From Readers Why My Server is Lagging?<br>Lagg Yes, We say Lagg not lag in Minecraft The Extra G is for really Good Lagg.<br>&nbsp;Server Lags are of 3 Types Now You Have To Find What Type Of Lagg You have in your server.<br>The 3 type of Lagg are:</p>
+
+
+
+<ul><li><strong>Tps Lag</strong>: Like your heart , Minecraft server also beats , what your heart do it pumps oxygen in you body , same is Minecraft heart we call him Tps. Your Heart beats 84-94beats per minute , Minecraft beats more faster around&nbsp;<strong>20 tasks per second (tps).</strong>&nbsp;it perform many tasks in seconds Neither Mobs positions , Overworld Mobs position , day cycle weather cycle , world generate all that in seconds.&nbsp;</li><li><strong>Ping Lag:&nbsp;</strong>Connection lag correlates directly with ping. Ping refers to the network latency between client-side, and your Minecraft server. This reflects how long in milliseconds data takes to process and travel. Having a low ping is best as lower latency provides smoother gameplay. Typically, the further away a server is from your physical location, the greater your latency will be. The best way to minimize latency is by finding a server location near you</li><li><strong>Client Lag (fps):</strong>&nbsp;Having low FPS will generally come with your game behaving slowly. If your frame rate is low enough, playing the game may feel like watching a slideshow as only a few different frames appear on your screen per second. It will make the game feel laggy, which is the last thing we want. Having a low frame rate on your server does not mean that the server is lagging but that your computer is failing to keep up with the game.</li></ul>
+
+
+
+<p>&#8220;Mike&#8221; : oh jess , How i find what type lagg my server has.<br>&#8220;Readers&#8221; : Mike Dont worry.<br>Well&nbsp;<strong>To check tps lag</strong>&nbsp;type /tps if the server shows a tps between 20 &#8211; 18 its good , The Good Way is When you or your player says server is lagging. Type /tps if still its 18+ then its not a tps error , oh And if its below 15. Then Your Server is Going With Tps Errors.<br>THE BEST WHAT TO FIX THIS IS LIMITING NUMBER OF PLAYER with ratio of 5 players per 1 gb of ram.</p>
+
+
+
+<h2>Detecting lag</h2>
+
+
+
+<p>Trying to find where lag originates is not always an easy task. On client side, you can see if you have lag by checking your FPS. You can check your FPS by pressing f3 in-game on Minecraft, this will open up a little console with all of your game details. If you have a very low FPS, then you are experiencing a client-side lag.</p>
+
+
+
+<p>Connection lag can be tested by checking your pingto the server. Having a high ping will mean that you are experiencing delays with the connection.</p>
+
+
+
+<p>Neither of these types is related to the server performance itself though. You can check your server performance by checking the TPS. If the TPS is low, you know that something is causing your server to run behind. Detecting what exactly the reason is can be a little bit troublesome, however, if you are running Paper and Spigot, you can run a timings report to break it down for you.</p>
+
+
+
+<h3>Timings Report</h3>
+
+
+
+<p>Timings allow you to monitor how long it takes the plugins installed on your server to process an event. This allows you to see where lag issues arise, as a misbehaving plugin may be causing a delay in the tick loop, causing the server TPS to go below 20. To run a timings report, type “/timings on” and after about 20+ minutes, type&nbsp;“/timings paste”. This will provide you a link, go ahead and click that and wait for the web page to load. The timings report is separated into sections for each plugin. The first two sections are Minecraft’s own tick events such as loading entities, chunks, etc. The rest is divided by plugin</p>
+
+
+
+<h2>How to Fix Server Lag</h2>
+
+
+
+<p>Knowing how to optimize your server is vital in preventing server lag. This will be breaking down what you need to change in your server configuration to get the best possible performance without having to compromise your gameplay. We will be going through all of the steps in server optimization.</p>
+
+
+
+<p>One of the most vital steps in lag removal is pregenerating the world. This should be done before anything else. The best way to do this is with the WorldBorder plugin. All you have to do is type&nbsp;“/wb set ”&nbsp;followed by&nbsp;“/wb fill”. This will start generating the world for you, make sure to set the radius to something reasonable like 5000 as pregeneration takes a long time.</p>
+
+
+
+<h3>Files</h3>
+
+
+
+<p>Some of the main files that you will want to modify to really optimize your server is the Bukkit.yml, Paper.yml, and Spigot.yml. Below we have included areas of the configuration that you will want to change and what you will want to change it to. Keep in mind when going through this, that it does not need to follow this exactly, these are highly optimized to provide your server with the highest performance possible.</p>
+
+
+
+<p>Make sure that you turn your server off completely before changing or modifying any of the configuration files. Each of these files can be found in the main directory of the FTP File Access.</p>
+
+
+
+<p>Bukkit.yml</p>
+
+
+
+<pre class="wp-block-preformatted">spawn-limits:
+  monsters: 50
+  animals: 8
+  water-animals: 3
+  ambient: 1
+chunk-gc:
+  period-in-ticks: 400
+ticks-per:
+  animal-spawns: 400
+  monster-spawns: 4</pre>
+
+
+
+<p>Paper.yml</p>
+
+
+
+<pre class="wp-block-preformatted">   max-auto-save-chunks-per-tick: 6
+   optimize-explosions: false
+   mob-spawner-tick-rate: 2
+   disable-chest-cat-detection: true
+   container-update-tick-rate: 3
+   max-entity-collisions: 2
+   grass-spread-tick-rate: 4
+    despawn-ranges:
+      soft: 28
+      hard: 96
+    hopper:
+      cooldown-when-full: true
+      disable-move-event: true
+    non-player-arrow-despawn-rate: 60
+    creative-arrow-despawn-rate: 60
+   prevent-moving-into-unloaded-chunks: true
+    use-faster-eigencraft-redstone: true
+    armor-stands-tick: false
+    per-player-mob-spawns: true
+    alt-item-despawn-rate:
+      enabled: true
+    anti-xray:
+      enabled: true
+</pre>
+
+
+
+<p>Spigot.yml</p>
+
+
+
+<pre class="wp-block-preformatted">  save-user-cache-on-stop-only: true
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    mob-spawn-range: 6
+    entity-activation-range:
+      animals: 16
+      monsters: 24
+      raiders: 48
+      misc: 8
+    merge-radius:
+      exp: 4.0
+      item: 6.0
+   nerf-spawner-mobs: true</pre>
+
+
+
+<h3>Plugins</h3>
+
+
+
+<p>Changing the base server files is not the only way to reduce or get rid of lag. There are many plugins out there that their sole purpose is for lag reduction. If you know which ones to use, you can find that lag can be reduced significantly on your server simply by installing a plugin or two.</p>
+
+
+
+<p>ClearLagg&nbsp;(1.8+)<br>Limit Pillagers&nbsp;(1.14+)<br>Village Optimiser&nbsp;(1.14.2+)<br>Entity Control&nbsp;(1.7+)<br>Mergedmob&nbsp;(1.7+)<br>Entitytick-Lag&nbsp;(1.14+)<br>Farm Limiter&nbsp;(1.7+)<br>Mob Farm Manager&nbsp;(1.7+)<br>Lag Assist&nbsp;(1.8+)</p>
+
+
+
+<p>These plugins aren’t guaranteed to completely stop the lag on your server, your server can experience lag for many different reasons, but they are known to help with optimization and should definitely reduce lag.</p>
+
+
+
+<h3>Helpful Mods</h3>
+
+
+
+<p>Unfortunately with Forge, there are not any good optimization changes to the configuration files you can make. The main thing you can do to optimize your Forge server is by reducing the view distance from the server.properties file. Another way is with the use of mods, there are some mods out there that can help reduce server lag.<br>Foamfix<br>BetterFPS<br>Optifine&nbsp;(Client-Side)</p>
+
+
+
+<p>As with plugins, adding these mods is not going to guarantee that your server will no longer lag.</p>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>One of the most important things that you can do as a server owner is making sure that your server is optimized and lag-free. When players join a server, they don’t expect to have issues with lag. In optimizing a server, it is important that you note the different types of lag and what you can and cannot control. You may not be able to control the lag they experience client-side, but you can surely do everything on your end to optimize the server.</p>
+
+
+
+<p>If you are running a Vanilla Minecraft server, you may think that it won’t experience lag, I mean it is the base version of Minecraft with no optimizations. Unfortunately, though, this is not true. The newer updates such as 1.14 are known to have issues when it comes to lag. One of the best things you can do to reduce this lag is by switching from Vanilla Minecraft to Paper.</p>
+
+
+
+<p>If you are running a modded Minecraft server, Forge, there are not a lot of optimizable configuration options, unfortunately. The best thing you can do for Forge is to pregenerate the worlds in single player with the mods and reduce the view distance from the server.properties.<br>With so many different versions of Minecraft and different types of lag you can experience, as a server owner you can only control the server-side lag. If you follow everything from this guide, it should increase the performance of your server exponentially.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-reduce-lag-on-minecraft-server/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

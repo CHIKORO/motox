@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>plugins &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/plugins/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:32:00 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How to Install the Dynmap Plugin for Minecraft</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-install-the-dynmap-plugin-for-minecraft/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-install-the-dynmap-plugin-for-minecraft/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:31:59 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[bukkit dynmap]]></category>
+		<category><![CDATA[dynmap]]></category>
+		<category><![CDATA[dynmap bukkit]]></category>
+		<category><![CDATA[dynmap bukkit plugin]]></category>
+		<category><![CDATA[dynmap minecraft]]></category>
+		<category><![CDATA[dynmap minecraft plugin]]></category>
+		<category><![CDATA[dynmap plugin]]></category>
+		<category><![CDATA[dynmap plugin 1.16]]></category>
+		<category><![CDATA[dynmap plugin tutorial]]></category>
+		<category><![CDATA[dynmap tutorial]]></category>
+		<category><![CDATA[google maps plugin]]></category>
+		<category><![CDATA[how to install dynmap]]></category>
+		<category><![CDATA[how to setup a dynmap]]></category>
+		<category><![CDATA[how to setup dynmap]]></category>
+		<category><![CDATA[how to setup dynmap plugin]]></category>
+		<category><![CDATA[how to use dynmap]]></category>
+		<category><![CDATA[minecraft bukkit plugin dynmap]]></category>
+		<category><![CDATA[minecraft dynmap]]></category>
+		<category><![CDATA[minecraft dynmap plugin]]></category>
+		<category><![CDATA[minecraft plugins]]></category>
+		<category><![CDATA[minecraft server dynmap]]></category>
+		<category><![CDATA[plugin]]></category>
+		<category><![CDATA[plugin dynmap]]></category>
+		<category><![CDATA[plugin tutorial dynmap]]></category>
+		<category><![CDATA[plugins]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=31</guid>
+
+					<description><![CDATA[Overview One of the great ways to customize your&#160;Minecraft server&#160;is with plugins. With thousands of plugins, your server has endless possibilities from creating Factions to having an online map of your server. Dynmap is an awesome way to expand your server outside of the normal Minecraft gameplay. With this plugin, you can create an online ... <a title="How to Install the Dynmap Plugin for Minecraft" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-install-the-dynmap-plugin-for-minecraft/" aria-label="More on How to Install the Dynmap Plugin for Minecraft">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/2752919920969240836#"><img src="https://1.bp.blogspot.com/-Tt9V_DwRw60/X_nAzY_pJgI/AAAAAAAAACY/j_duqO4O-SMe6fknTaDzmI-qBiOmnGyfACLcBGAsYHQ/w640-h360/novaskin-minecraft-wallpaper%2B%25286%2529.jpeg" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>One of the great ways to customize your&nbsp;Minecraft server&nbsp;is with plugins. With thousands of plugins, your server has endless possibilities from creating Factions to having an online map of your server. Dynmap is an awesome way to expand your server outside of the normal Minecraft gameplay. With this plugin, you can create an online webpage that essentially works like a google map for your Minecraft worlds. Many plugins can also be implemented into the Dynmap map such as&nbsp;Factions&nbsp;and Towny. If you are looking for a way to enhance your server further, Dynmap is the way to go. The setup process is decently easily and we will walk you through each step of it.</p>
+
+
+
+<h2>How to install Dynmap</h2>
+
+
+
+<p>Install through the panel</p>
+
+
+
+<ol><li>Make sure your server is running Bukkit, Spigot, or Paper. You can check this in the jar dropdown on the game panel dashboard.</li><li>To the left of the game panel, press the Plugins List tab.</li><li>Type in “Dynmap” in the name search and scroll until you find it. Then click on it to open the download page.</li><li>At the bottom of the page, check the version you have selected. It’s good to cross-reference this to the official Bukkit or Spigot page.</li><li>Find the correct version from the version dropdown, select it and press install.</li><li>Go back to the Game Panel and restart your server. You can check if the plugin was installed successfully by typing “pl” into the console.</li></ol>
+
+
+
+<p>Install through FTP</p>
+
+
+
+<ol><li>Go to the official Dynmap page on&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/2752919920969240836#">Bukkit</a>&nbsp;or&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/2752919920969240836#">Spigot</a>&nbsp;and click on the File tab.</li><li>Find the update that is compatible with your server version and press the download icon.</li><li>Head to the Game Panel and click FTP File Access to the left of the panel.</li><li>Once you login to the FTP File Access you will see a list of your files. Open the plugins folder and click “Upload” to the top left of the page.</li><li>Drag your plugin over to the right side of the page and wait for it to reach 100%.</li><li>Head back to the Game Panel and restart your server. The plugin should now be installed. You can check this by typing “pl” into the console.</li></ol>
+
+
+
+<h2>How to setup Dynmap</h2>
+
+
+
+<p>Configuration</p>
+
+
+
+<ol><li>Stop your server.</li><li>To the left of the game panel, click FTP File Access, then enter the plugins folder.</li><li>Find the folder named Dynmap and open it, then locate the file named configuration.txt and press edit to the right of it.</li><li>Once in the configuration, locate deftemplatesuffix and set it to vlowres or lowres.</li><li>Scroll down to webserver-port and change it to any four digit port higher than 1024. The default port set is generally taken by someone else so you must use a random one.</li><li>Locate image-format: and set it to jpg.</li><li>Press Save, head back to the game panel and start your server.</li><li>Once the server has fully started, go to your console and type in “dynmap fullrender WORLDNAME”.</li></ol>
+
+
+
+<h2>How to add a resource pack</h2>
+
+
+
+<p>Finding a pack:</p>
+
+
+
+<ol><li>The pack needs to come from an trusted website such as&nbsp;<a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/2752919920969240836#">CurseForge</a>.</li><li>Confirm that the resource pack is made for the version of Minecraft your server is running.</li><li>Download the pack to a known directory on your computer.</li></ol>
+
+
+
+<p>Adding to Dynmap</p>
+
+
+
+<ol><li>Stop your server.</li><li>To the left of the game panel, click FTP File Access, then enter the plugins folder.</li><li>Find the folder named Dynmap and open it, then open the texturepacks folder.</li><li>To the left of the page click Upload and drag in the pack you previously downloaded.</li><li>Wait until it is fully uploaded and then go back one directory to the main Dynmap folder.</li><li>Locate the file named shaders.txt and press edit to the right of it.</li><li>You are going to want to clear the current contents of this file and add the following:<br><code></code>shaders: &#8211; class: org.dynmap.hdmap.TexturePackHDShader name: stdtexture texturepack: (Full name of texturepack here)<code></code></li><li>From this, the only part you will be changing is “texturepack:”. In this spot, you will put the full name of the file including the extension. For example, “texturepack: Faithful+1.13.2-rv2.zip”.</li><li>Once you get that set, save the file and head back to the game panel.</li><li>Start your server and you will want to do a full render of the map by typing dynmap fullrender into the console.</li></ol>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>Dynmap is a great way to customize your Minecraft server. You can integrate your region plugins such as Towny or Factions to really bring a realistic feel to your community. While Dynmap is great, make sure that you are only using it if your server has enough resources to support it as it can be a bit resource intensive. However, you can upgrade your server at any time!</p>
+
+
+
+<p>To upgrade your server, log in to your billing area at the top of the site. In the top menu select services, my services, select the server you want to upgrade, then hit the upgrade/downgrade option. You can select your upgrade there. After you have paid simply restart the server for the upgrade to be applied.</p>
+
+
+
+<h2>Common Issues</h2>
+
+
+
+<p>Port is taken<br>When configuring Dynmap, it’s important that you change the webserver-port to a random 4 digit number. If you run into an error saying the port is taken, you will need to change it to another number.</p>
+
+
+
+<p>Hi res causing performance issues<br>It is very important to set the deftemplatesuffix to vlowres or lowres, if you do not to this you will almost always run into performance issues on the server.</p>
+
+
+
+<p>Using MySQL and not FileTree<br>Maps can become several gigabytes in size, which can tank your MySQL performance. It is best you use the default setting, FileTree.</p>
+
+
+
+<p>Texture pack not loading<br>If you have set the texture pack and it is still not working, there are a few things you need to check for. The first is that you set the “texturepack:” section to the exact filename of the resource pack you uploaded. If that’s correct, check that the resource pack you downloaded is made for the same version of Minecraft that you are running.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-install-the-dynmap-plugin-for-minecraft/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

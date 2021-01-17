@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>minecraft skyblock &#8211; MineVote &#8211; Blog</title>
+	<atom:link href="https://minevote.xyz/blog/tag/minecraft-skyblock/feed/" rel="self" type="application/rss+xml" />
+	<link>https://minevote.xyz/blog</link>
+	<description>Minecraft Server Guide</description>
+	<lastBuildDate>Sun, 17 Jan 2021 06:36:23 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+	<item>
+		<title>How to OP Yourself In Minecraft Server</title>
+		<link>https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/</link>
+					<comments>https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/#respond</comments>
+		
+		<dc:creator><![CDATA[minevote.xyz@gmail.com]]></dc:creator>
+		<pubDate>Sun, 17 Jan 2021 06:36:22 +0000</pubDate>
+				<category><![CDATA[Server]]></category>
+		<category><![CDATA[minecraft]]></category>
+		<category><![CDATA[minecraft op prison]]></category>
+		<category><![CDATA[minecraft op prison server]]></category>
+		<category><![CDATA[minecraft op prison server ip]]></category>
+		<category><![CDATA[minecraft op prisons]]></category>
+		<category><![CDATA[minecraft op skyblock server]]></category>
+		<category><![CDATA[minecraft op skyblock server 1.8]]></category>
+		<category><![CDATA[minecraft prison]]></category>
+		<category><![CDATA[minecraft prison break]]></category>
+		<category><![CDATA[minecraft prison cell]]></category>
+		<category><![CDATA[minecraft prison ep 1]]></category>
+		<category><![CDATA[minecraft prison escape]]></category>
+		<category><![CDATA[minecraft prison server]]></category>
+		<category><![CDATA[minecraft prisons]]></category>
+		<category><![CDATA[minecraft server]]></category>
+		<category><![CDATA[minecraft skyblock]]></category>
+		<category><![CDATA[minecraft skyblock server]]></category>
+		<category><![CDATA[minecraft uhc]]></category>
+		<category><![CDATA[op kits minecraft opprison]]></category>
+		<category><![CDATA[op prison server]]></category>
+		<category><![CDATA[prison minecraft]]></category>
+		<category><![CDATA[server]]></category>
+		<guid isPermaLink="false">https://minevote.xyz/blog/?p=40</guid>
+
+					<description><![CDATA[Overview When you create your&#160;server, you probably expect to have every permission/command. You may want to give other players access to every command as well. For Minecraft servers, this is done simply by making yourself Op. Being Op basically gives you every permission the server has to offer. This is what allows you to use ... <a title="How to OP Yourself In Minecraft Server" class="read-more" href="https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/" aria-label="More on How to OP Yourself In Minecraft Server">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><a href="https://www.blogger.com/u/5/blog/post/edit/7469356289688488708/4425611516391732216#"><img src="https://1.bp.blogspot.com/-tzXzWio4sbE/X_nEj5fOiKI/AAAAAAAAADA/gPYACxDRGvojzuE_l302SX5KArrrtdIBgCLcBGAsYHQ/w640-h360/download%2B%25284%2529.png" alt=""/></a></figure>
+
+
+
+<h2>Overview</h2>
+
+
+
+<p>When you create your&nbsp;server, you probably expect to have every permission/command. You may want to give other players access to every command as well. For Minecraft servers, this is done simply by making yourself Op. Being Op basically gives you every permission the server has to offer. This is what allows you to use commands such as /gamemode. &nbsp;The owner of the server is automatically set however you may want to set other players as operators. We will be walking you through the different levels of OP, how to set a server operator and how to remove an operator.<br>In the&nbsp;1.7.10 update, Op Permission Levels were added. These allow you to control how much control on the server the operators will have. If you want to add individual permissions for certain players/groups, you will need a plugin such as PermissionsEx.</p>
+
+
+
+<h2>How to set and remove OP</h2>
+
+
+
+<p>How to set someone to OP on your Minecraft server</p>
+
+
+
+<ol><li>Head to the game panel and to the left click on the console tab.</li><li>In the command line type “op ” and press enter.</li><li>You should see a message that says “Player is now an operator”.</li><li>You can also do this in-game by typing “/op ”. You must be opped in order to use this command.</li></ol>
+
+
+
+<p>How to unop someone on your Minecraft server</p>
+
+
+
+<ol><li>Head to the game panel and to the left click on the console tab.</li><li>In the command line type “deop ” and press enter.</li><li>You should see a message that says “Player is no longer an operator”.</li><li>You can also do this in-game by typing “/deop ”. You will need to be opped in order to use this command.</li></ol>
+
+
+
+<h2>OP levels</h2>
+
+
+
+<p>Levels<br>Each OP level inherits the levels before it. So for example, level 3 also has the commands and abilities of level 2 and level 1. The Op Permission Levels were released during the 1.7.10<br>development, so this will not apply to any version under 1.7.10.</p>
+
+
+
+<ul><li>Level 1 – This will allow server operators to bypass the default spawn protection. This is the lowest level of OP and does not have any commands included.</li><li>Level 2 – If you have level 2 set, operators will be able to use the following commands: /gamerule, /give, /effect, /clear, /difficulty, /summon, /tp, /gamemode, and /setblock. They will also have permission to edit&nbsp;command blocks.</li><li>Level 3 – This level will allow server operators to use the following commands: /ban, /kick, /deop, and /op.</li><li>Level 4 – This is the highest level of OP, it allows server operators to use the /stop command.</li></ul>
+
+
+
+<p>How to set the OP level</p>
+
+
+
+<ol><li>Head to the game panel and stop the server.</li><li>To the left of the panel, click on “Config Files”.</li><li>Click “Server Settings” and locate “Op Permission Level”.</li><li>On the dropdown, you will see all of the levels you can set. Choose which level you want the server operators to have and press Save.</li><li>Start the server.</li></ol>
+
+
+
+<h2>Common Issues</h2>
+
+
+
+<p>Not having access to all of the commands even when you are opped<br>If you have Opped yourself but still do not have permissions like /gamemode, it is likely that you have the wrong OP level set. You can edit this by stopping the server, going to config files, “Server Settings”, locating/changing “Op Permission Level” to your desired level, saving, then starting the server back up.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://minevote.xyz/blog/2021/01/17/how-to-op-yourself-in-minecraft-server/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
